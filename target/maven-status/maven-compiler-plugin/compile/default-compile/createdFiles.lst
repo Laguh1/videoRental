@@ -1,0 +1,7 @@
+com/joanadantas/OldMoviePricing.class
+com/joanadantas/resources/MovieResource.class
+com/joanadantas/movie/Movie.class
+com/joanadantas/RegularPricing.class
+com/joanadantas/NewReleasePricing.class
+com/joanadantas/movie/dao/MoviesCatalogueLoader.class
+com/joanadantas/Pricing.class

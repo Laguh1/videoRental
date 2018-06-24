@@ -1,1 +1,7 @@
-/Users/joana.socrates/Projects/videorental/src/main/java/com/joanadantas/HelloServlet.java
+/Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/movie/Movie.java
+/Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/resources/MovieResource.java
+/Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/RegularPricing.java
+/Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/Pricing.java
+/Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java
+/Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/NewReleasePricing.java
+/Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/OldMoviePricing.java

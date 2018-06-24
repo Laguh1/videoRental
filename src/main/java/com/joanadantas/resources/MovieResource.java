@@ -9,23 +9,32 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-@Produces(MediaType.APPLICATION_JSON)
-@ApplicationPath("/videorental")
+//@Produces(MediaType.APPLICATION_JSON)
+@Path("/movies")
 public class MovieResource {
 
     @GET
-    @Path("/movies")
-    @Produces({"application/json"})
+    //@Produces({"application/json"})
     public Response getMovie() {
-        JSONObject jsonObject = new JSONObject();
+       /* JSONObject jsonObject = new JSONObject();
         Double fahrenheit = 98.24;
         Double celsius;
         celsius = (fahrenheit - 32)*5/9;
         jsonObject.put("F Value", fahrenheit);
         jsonObject.put("C Value", celsius);
-        String result = "@Produces(\"application/json\") Output: \n\nF to C Converter Output: \n\n" + jsonObject;
+        String result = "Produces(\"application/json\") Output: \n\nF to C Converter Output: \n\n" + jsonObject;
+      */  String result2 = "Produto";
+        return Response.status(200).entity(result2).build();
+    }
 
-        return Response.status(200).entity(result).build();
+    @GET
+    @Path("/test")
+    public Response getMsg() {
+
+        String output = "Jersey say : ";
+
+        return Response.status(200).entity(output).build();
+
     }
 
 }

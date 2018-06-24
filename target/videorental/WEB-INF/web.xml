@@ -5,17 +5,15 @@
 <web-app>
   <display-name>Simple Servlet Application</display-name>
   <servlet>
-    <servlet-name>videorental</servlet-name>
-    <servlet-class>com.joanadantas.SimpleServlet</servlet-class>
-    <init-param>
-      <param-name>com.sun.jersey.config.property.packages</param-name>
-      <param-value>com.joanadantas</param-value>
-    </init-param>
+    <servlet-name>jersey-serlvet</servlet-name>
+    <servlet-class>
+      com.sun.jersey.spi.container.servlet.ServletContainer
+    </servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
 
   <servlet-mapping>
-    <servlet-name>videorental</servlet-name>
+    <servlet-name>jersey-serlvet</servlet-name>
     <url-pattern>/videorental/*</url-pattern>
   </servlet-mapping>
 </web-app>
