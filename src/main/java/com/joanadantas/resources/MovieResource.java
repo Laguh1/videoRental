@@ -1,15 +1,14 @@
 package com.joanadantas.resources;
 
-import org.json.JSONObject;
-
-import javax.ws.rs.ApplicationPath;
+import com.joanadantas.movie.Movie;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.time.LocalDate;
+import java.time.Month;
 
-//@Produces(MediaType.APPLICATION_JSON)
 @Path("/movies")
 public class MovieResource {
 
@@ -28,12 +27,17 @@ public class MovieResource {
     }
 
     @GET
+    @Produces(MediaType.APPLICATION_JSON)
     @Path("/test")
-    public Response getMsg() {
+    public Movie getMsg() {
 
         String output = "Jersey say : ";
+        LocalDate someDate = LocalDate.of(2014, Month.JANUARY, 1);
+        Movie test = new Movie("Teste", someDate, "2.20");
 
-        return Response.status(200).entity(output).build();
+        System.out.println("ARrived here");
+        return test;
+        //return Response.status(200).entity(test).build();
 
     }
 

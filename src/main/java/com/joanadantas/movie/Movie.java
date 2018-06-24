@@ -13,13 +13,27 @@ public class Movie {
     private static final int NUMBER_OF_DAYS_FOR_OLD_MOVIE = 5*12*30;
 
     private final String title;
-    private Pricing pricing;
+   // private Pricing pricing;
+    private String pricing;
     private final LocalDate publishDate;
 
-    public Movie (String title, LocalDate publishDate) {
+    public String getTitle() {
+        return title;
+    }
+
+    public String getPricing() {
+        return pricing;
+    }
+
+    public LocalDate getPublishDate() {
+        return publishDate;
+    }
+
+    public Movie (String title, LocalDate publishDate, String pricing) {
         this.title = title;
         this.publishDate = publishDate;
-        this.pricing = getPricingByMovieAge(publishDate);
+       // this.pricing = getPricingByMovieAge(publishDate);
+        this.pricing = pricing;
     }
 
     Pricing getPricingByMovieAge(LocalDate publishDate) {
