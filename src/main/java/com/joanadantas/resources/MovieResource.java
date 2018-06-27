@@ -1,6 +1,8 @@
 package com.joanadantas.resources;
 
 import com.joanadantas.movie.Movie;
+import com.joanadantas.movie.dao.MoviesCatalogueLoader;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -14,7 +16,7 @@ public class MovieResource {
 
     @GET
     //@Produces({"application/json"})
-    public Response getMovie() {
+    public Response getAllMovies() {
        /* JSONObject jsonObject = new JSONObject();
         Double fahrenheit = 98.24;
         Double celsius;
@@ -29,14 +31,16 @@ public class MovieResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/test")
-    public Movie getMsg() {
+    public Movie getMovie() {
 
         String output = "Jersey say : ";
         LocalDate someDate = LocalDate.of(2014, Month.JANUARY, 1);
         Movie test = new Movie("Teste", someDate, "2.20");
 
         System.out.println("ARrived here");
-        return test;
+        Movie movieResult = MoviesCatalogueLoader.getAllMoviesMap().get("001");
+        return movieResult;
+        //return Response.status(200).entity(movieResult).build();
         //return Response.status(200).entity(test).build();
 
     }
