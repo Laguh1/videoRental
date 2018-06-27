@@ -15,7 +15,9 @@ public class Movie {
     private final String title;
    // private Pricing pricing;
     private String pricing;
-    private final LocalDate publishDate;
+    private final String publishDate;
+
+
 
     public String getTitle() {
         return title;
@@ -25,11 +27,11 @@ public class Movie {
         return pricing;
     }
 
-    public LocalDate getPublishDate() {
+    public String getPublishDate() {
         return publishDate;
     }
 
-    public Movie (String title, LocalDate publishDate, String pricing) {
+    public Movie (String title, String publishDate, String pricing) {
         this.title = title;
         this.publishDate = publishDate;
        // this.pricing = getPricingByMovieAge(publishDate);

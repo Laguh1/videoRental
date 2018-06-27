@@ -21,10 +21,10 @@ public class MoviesCatalogueLoader {
             return allMovies;
         }else{
             allMovies = new ArrayList<>();
-            Movie movie1 = new Movie("Matrix 11", LocalDate.of(2018,6, 13), "1.50");
-            Movie movie2 = new Movie("Spider Man", LocalDate.of(2017,6,13), "1.50");
-            Movie movie3 = new Movie("Spider Man 2", LocalDate.of(2016,6,13), "1.50");
-            Movie movie4 = new Movie("Out of Africa", LocalDate.of(2011,6,13), "1.50");
+            Movie movie1 = new Movie("Matrix 11", "2018-06-16", "1.50");
+            Movie movie2 = new Movie("Spider Man", "2017-06-16", "1.50");
+            Movie movie3 = new Movie("Spider Man 2", "2016-06-16", "1.50");
+            Movie movie4 = new Movie("Out of Africa", "2011-06-16", "1.50");
             allMovies.addAll(Arrays.asList(movie1, movie2, movie3, movie4));
             return allMovies;
         }

@@ -33,11 +33,6 @@ public class MovieResource {
     @Path("/test")
     public Movie getMovie() {
 
-        String output = "Jersey say : ";
-        LocalDate someDate = LocalDate.of(2014, Month.JANUARY, 1);
-        Movie test = new Movie("Teste", someDate, "2.20");
-
-        System.out.println("ARrived here");
         Movie movieResult = MoviesCatalogueLoader.getAllMoviesMap().get("001");
         return movieResult;
         //return Response.status(200).entity(movieResult).build();
