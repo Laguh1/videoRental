@@ -1,5 +1,6 @@
 package com.joanadantas.movie;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.joanadantas.NewReleasePricing;
 import com.joanadantas.OldMoviePricing;
 import com.joanadantas.Pricing;
@@ -25,6 +26,7 @@ public class Movie {
         return pricing;
     }
 
+    @JsonFormat(pattern = "yyyy-MM-dd")
     public LocalDate getPublishDate() {
         return publishDate;
     }
