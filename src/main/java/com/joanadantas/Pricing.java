@@ -3,14 +3,15 @@ package com.joanadantas;
 import com.joanadantas.util.PropertyService;
 
 public abstract class Pricing implements CalculatePrice{
+
+    private final String pricingRate;
     private final double pricePerDay;
     private final int numberOfFixedDays;
-    private PropertyService propertyService;
 
-    public Pricing (String priceProperty, String daysProperty){
-        propertyService = new PropertyService();
-        this.pricePerDay = propertyService.getPropertyInInteger(priceProperty);
-        this.numberOfFixedDays = propertyService.getPropertyInInteger(daysProperty);
+    public Pricing (String rateProperty, String priceProperty, String daysProperty){
+        this.pricingRate = PropertyService.getInstance().getProperty(rateProperty);
+        this.pricePerDay = PropertyService.getInstance().getPropertyInInteger(priceProperty);
+        this.numberOfFixedDays = PropertyService.getInstance().getPropertyInInteger(daysProperty);
     }
 
     public double getPricePerDay() {
@@ -21,11 +22,15 @@ public abstract class Pricing implements CalculatePrice{
         return numberOfFixedDays;
     }
 
+    public String getPricingRate() {
+        return pricingRate;
+    }
+
     @Override
     public double calculateRentPrice(int daysRented){
         double totalPrice = 0;
 
-        if(daysRented>1){
+        if(daysRented>0){
 
             if(daysRented <= numberOfFixedDays){
                 totalPrice = pricePerDay;
