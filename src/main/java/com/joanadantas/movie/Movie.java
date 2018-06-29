@@ -12,8 +12,9 @@ public class Movie {
     private static final int NUMBER_OF_DAYS_FOR_NEW_RELEASE = 3*30;
     private static final int NUMBER_OF_DAYS_FOR_OLD_MOVIE = 5*12*30;
 
+    private final String id;
     private final String title;
-    private Pricing pricing;
+    private final Pricing pricing;
     private final String publishDate;
 
     public String getTitle() {
@@ -28,13 +29,18 @@ public class Movie {
         return publishDate;
     }
 
-    public Movie (String title, String publishDate) {
-        this.title = title;
-        this.publishDate = publishDate;
-        this.pricing = getPricingByMovieAge(publishDate);
+    public String getId() {
+        return id;
     }
 
-    Pricing getPricingByMovieAge(String publishDate) {
+    public Movie (String id, String title, String publishDate) {
+        this.id = id;
+        this.title = title;
+        this.publishDate = publishDate;
+        this.pricing = getPricingByMovieAge();
+    }
+
+    Pricing getPricingByMovieAge() {
         LocalDate publishDateInDate = LocalDate.parse(publishDate);
                 LocalDate now = LocalDate.now();
         if (now.isBefore(publishDateInDate.plusDays(NUMBER_OF_DAYS_FOR_NEW_RELEASE))){
