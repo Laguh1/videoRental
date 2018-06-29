@@ -3,7 +3,7 @@ package com.joanadantas;
 public class RegularPricing extends Pricing {
 
     public RegularPricing(){
-        super(30, 3);
+        super("regular_price", "regular_days");
     }
 
 }

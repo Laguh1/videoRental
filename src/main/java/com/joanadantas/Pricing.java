@@ -1,12 +1,16 @@
 package com.joanadantas;
 
+import com.joanadantas.util.PropertyService;
+
 public abstract class Pricing implements CalculatePrice{
     private final double pricePerDay;
     private final int numberOfFixedDays;
+    private PropertyService propertyService;
 
-    public Pricing (double pricePerDay, int numberOfFixedDays){
-        this.pricePerDay = pricePerDay;
-        this.numberOfFixedDays = numberOfFixedDays;
+    public Pricing (String priceProperty, String daysProperty){
+        propertyService = new PropertyService();
+        this.pricePerDay = propertyService.getPropertyInInteger(priceProperty);
+        this.numberOfFixedDays = propertyService.getPropertyInInteger(daysProperty);
     }
 
     public double getPricePerDay() {
