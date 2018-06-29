@@ -32,7 +32,6 @@ public class Movie {
         this.title = title;
         this.publishDate = publishDate;
         this.pricing = getPricingByMovieAge(publishDate);
-        //this.pricing = pricing;
     }
 
     Pricing getPricingByMovieAge(String publishDate) {
@@ -46,6 +45,4 @@ public class Movie {
             return new RegularPricing();
         }
     }
-
-
 }

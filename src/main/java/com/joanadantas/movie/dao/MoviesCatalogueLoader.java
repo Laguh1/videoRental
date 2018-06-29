@@ -38,7 +38,6 @@ public class MoviesCatalogueLoader {
             getAllMoviesList();
             for(int index = 1; index<getAllMoviesList().size()+1; index++){
                 allMoviesMap.put(String.format("%03d", index),getAllMoviesList().get(index-1));
-
             }
             return allMoviesMap;
         }

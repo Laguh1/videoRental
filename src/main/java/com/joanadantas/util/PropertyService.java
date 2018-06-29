@@ -31,11 +31,16 @@ public class PropertyService {
         return pricingProperties;
     }
 
-    public int getPropertyInInteger(String propertyName) {
-        return Integer.parseInt(loadAndGetPricingProperties().getProperty(propertyName).trim());
+    public int getPropertyInInteger(String propertyName, String defaultValue) {
+        try {
+            return Integer.parseInt(loadAndGetPricingProperties().getProperty(propertyName, defaultValue).trim());
+        }catch (NumberFormatException nFEx){
+            nFEx.printStackTrace();
+            return 30;
+        }
     }
 
-    public String getProperty(String propertyName) {
-        return loadAndGetPricingProperties().getProperty(propertyName).trim();
+    public String getProperty(String propertyName, String defaultValue) {
+        return loadAndGetPricingProperties().getProperty(propertyName, defaultValue).trim();
     }
 }
