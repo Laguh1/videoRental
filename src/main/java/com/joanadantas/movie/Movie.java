@@ -1,6 +1,6 @@
 package com.joanadantas.movie;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.joanadantas.NewReleasePricing;
 import com.joanadantas.OldMoviePricing;
 import com.joanadantas.Pricing;
@@ -8,46 +8,69 @@ import com.joanadantas.RegularPricing;
 
 import java.time.LocalDate;
 
+@JsonPropertyOrder({"id","title","publishDate","isAvailable","returnDate","pricing"})
 public class Movie {
 
     private static final int NUMBER_OF_DAYS_FOR_NEW_RELEASE = 3*30;
     private static final int NUMBER_OF_DAYS_FOR_OLD_MOVIE = 5*12*30;
 
+    private final String id;
     private final String title;
-   // private Pricing pricing;
-    private String pricing;
-    private final LocalDate publishDate;
+    private final String publishDate;
+    private boolean isAvailable;
+    private String returnDate;
+    private final Pricing pricing;
+
+    public Movie (String id, String title, String publishDate) {
+        this.id = id;
+        this.title = title;
+        this.publishDate = publishDate;
+        this.isAvailable = true;
+        this.returnDate = "";
+        this.pricing = getPricingByMovieAge();
+    }
+
+    public String getId() {
+        return id;
+    }
 
     public String getTitle() {
         return title;
     }
 
-    public String getPricing() {
-        return pricing;
-    }
-
-    @JsonFormat(pattern = "yyyy-MM-dd")
-    public LocalDate getPublishDate() {
+    public String getPublishDate() {
         return publishDate;
     }
 
-    public Movie (String title, LocalDate publishDate, String pricing) {
-        this.title = title;
-        this.publishDate = publishDate;
-       // this.pricing = getPricingByMovieAge(publishDate);
-        this.pricing = pricing;
+    public boolean getIsAvailable(){
+        return isAvailable;
     }
 
-    Pricing getPricingByMovieAge(LocalDate publishDate) {
+    public String getReturnDate(){
+        return returnDate;
+    }
+
+    public Pricing getPricing() {
+        return pricing;
+    }
+
+    public void setIsAvailable(boolean isAvailable){
+        this.isAvailable = isAvailable;
+    }
+
+    public void setReturnDate(String returnDate) {
+        this.returnDate = returnDate;
+    }
+
+    Pricing getPricingByMovieAge() {
+        LocalDate publishDateInDate = LocalDate.parse(publishDate);
                 LocalDate now = LocalDate.now();
-        if (now.isBefore(publishDate.plusDays(NUMBER_OF_DAYS_FOR_NEW_RELEASE))){
+        if (now.isBefore(publishDateInDate.plusDays(NUMBER_OF_DAYS_FOR_NEW_RELEASE))){
             return new NewReleasePricing();
-        } else if (now.isAfter(publishDate.plusDays(NUMBER_OF_DAYS_FOR_OLD_MOVIE))){
+        } else if (now.isAfter(publishDateInDate.plusDays(NUMBER_OF_DAYS_FOR_OLD_MOVIE))){
             return new OldMoviePricing();
         } else{
             return new RegularPricing();
         }
     }
-
-
 }
