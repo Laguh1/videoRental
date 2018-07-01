@@ -1,4 +1,4 @@
-package com.joanadantas.service.dto;
+package com.joanadantas.service.messages;
 
 import com.joanadantas.movie.Movie;
 
@@ -6,7 +6,6 @@ public class SuccesfullRentMessage {
 
     private String customerId;
     private String customerName;
-
     private Movie rentedMovie;
     private String operationStatus;
     private int amountToPay;

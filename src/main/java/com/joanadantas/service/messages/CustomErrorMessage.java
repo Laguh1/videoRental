@@ -1,10 +1,10 @@
-package com.joanadantas.service.dto;
+package com.joanadantas.service.messages;
 
-public class CustomErrorMessageDTO {
+public class CustomErrorMessage {
 
     String message;
 
-    public CustomErrorMessageDTO(String message){
+    public CustomErrorMessage(String message){
         this.message = message;
     }
 

@@ -4,7 +4,7 @@ import com.joanadantas.customer.Customer;
 import com.joanadantas.customer.dao.CustomersLoader;
 import com.joanadantas.movie.Movie;
 import com.joanadantas.movie.dao.MoviesCatalogueLoader;
-import com.joanadantas.service.dto.SuccesfullRentMessage;
+import com.joanadantas.service.messages.SuccesfullRentMessage;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -12,23 +12,26 @@ import java.time.LocalDate;
 @Service
 public class RentMovieService {
 
-    public SuccesfullRentMessage rentAMovie(String customerId, String movieId, int numberOfDaysToRent) throws CustomException{
+    private static final String CUSTOMER_NOT_FOUND = "Customer with id: %s not found.";
+    private static final String MOVIE_NOT_FOUND = "Movie with id: %s not found.";
+    private static final String MOVIE_NOT_AVAILABLE = "Movie %s is not Available. It will be returned on: %s";
 
+    public SuccesfullRentMessage rentAMovie(String customerId, String movieId, int numberOfDaysToRent) throws CustomException{
 
         Customer customer = CustomersLoader.getAllCustomersMap().get(customerId);
 
         if (customer == null){
-            throw new CustomException("Customer with id: "+customerId+" not found.");
+            throw new CustomException(String.format(CUSTOMER_NOT_FOUND, customerId));
         }
 
         Movie movie = MoviesCatalogueLoader.getAllMoviesMap().get(movieId);
 
         if (movie == null){
-            throw new CustomException("Movie with id: "+movieId+" not found.");
+            throw new CustomException(String.format(MOVIE_NOT_FOUND, movieId));
         }
 
         if(!movie.getIsAvailable()){
-            throw new CustomException("Movie "+movie.getTitle()+" is not Available. It will be returned on: "+movie.getReturnDate());
+            throw new CustomException(String.format(MOVIE_NOT_AVAILABLE, movie.getTitle(), movie.getReturnDate()));
         }
 
         customer.setBonusPoint(getBonusPoints(customer, movie));
@@ -38,11 +41,11 @@ public class RentMovieService {
         customer.insertMovieIntoRentedList(movie);
         customer.setAmountPaidPerMovie(movie, numberOfDaysToRent);
 
-        return new SuccesfullRentMessage(customerId, customer.getName(), movie, "Succesfull", customer.getAmountPaidPerMovie().get(movie));
+        return new SuccesfullRentMessage(customerId, customer.getName(), movie, "Succesfull", customer.getAmountPaidPerMovie().get(movie.getId()));
 
     }
 
-    private static int getBonusPoints(Customer customer, Movie movie) {
+    private int getBonusPoints(Customer customer, Movie movie) {
         String moviePricingRate = movie.getPricing().getPricingRate();
         int customerCurrentBonusPoints = customer.getBonusPoint();
         int pointToAdd = moviePricingRate.equals("New_Release")? 2:1;
