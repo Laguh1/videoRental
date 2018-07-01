@@ -4,7 +4,7 @@ import com.joanadantas.customer.Customer;
 import com.joanadantas.customer.dao.CustomersLoader;
 import com.joanadantas.movie.Movie;
 import com.joanadantas.movie.dao.MoviesCatalogueLoader;
-import com.joanadantas.service.messages.SuccesfullRentMessage;
+import com.joanadantas.service.messages.SuccessfulRentMessage;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -16,7 +16,7 @@ public class RentMovieService {
     private static final String MOVIE_NOT_FOUND = "Movie with id: %s not found.";
     private static final String MOVIE_NOT_AVAILABLE = "Movie %s is not Available. It will be returned on: %s";
 
-    public SuccesfullRentMessage rentAMovie(String customerId, String movieId, int numberOfDaysToRent) throws CustomException{
+    public SuccessfulRentMessage rentAMovie(String customerId, String movieId, int numberOfDaysToRent) throws CustomException{
 
         Customer customer = CustomersLoader.getAllCustomersMap().get(customerId);
 
@@ -38,10 +38,13 @@ public class RentMovieService {
         movie.setIsAvailable(false);
         String returnDate = LocalDate.now().plusDays(numberOfDaysToRent).toString();
         movie.setReturnDate(returnDate);
+        String rentDate = LocalDate.now().toString();
+        movie.setRentDate(rentDate);
         customer.insertMovieIntoRentedList(movie);
-        customer.setAmountPaidPerMovie(movie, numberOfDaysToRent);
+        int amountToPay = movie.getPricing().calculateRentPrice(numberOfDaysToRent);
+        customer.setAmountPaidPerMovie(movieId, amountToPay);
 
-        return new SuccesfullRentMessage(customerId, customer.getName(), movie, "Succesfull", customer.getAmountPaidPerMovie().get(movie.getId()));
+        return new SuccessfulRentMessage(customerId, customer.getName(), movie, customer.getAmountPaidPerMovie().get(movie.getId()));
 
     }
 

@@ -4,10 +4,7 @@ import com.joanadantas.customer.Customer;
 import com.joanadantas.customer.dao.CustomersLoader;
 import com.joanadantas.movie.Movie;
 import com.joanadantas.movie.dao.MoviesCatalogueLoader;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.*;
 import org.junit.rules.ExpectedException;
 
 import java.time.LocalDate;
@@ -29,22 +26,6 @@ public class RentMovieServiceTest {
     @Rule
     public ExpectedException thrown = ExpectedException.none();
 
-    /*@After
-    public void clear(){
-        CustomersLoader.getAllCustomersList();
-    }*/
-
-    @Test
-    public void rentAMovie_WhenMovieIsNotAvailable_ShouldThrowException() throws CustomException{
-        Movie movie = MoviesCatalogueLoader.getAllMoviesMap().get(UNAVAILABLE_MOVIE_ID);
-        objectUnderTest.rentAMovie(CUSTOMER_ID, UNAVAILABLE_MOVIE_ID, NUMBER_OF_DAYS_TO_RENT);
-
-        thrown.expect(CustomException.class);
-        thrown.expectMessage("Movie "+ movie.getTitle()+" is not Available. It will be returned on: "+movie.getReturnDate());
-
-        objectUnderTest.rentAMovie(CUSTOMER_ID, UNAVAILABLE_MOVIE_ID, NUMBER_OF_DAYS_TO_RENT);
-    }
-
     @Test
     public void rentAMovie_WhenCustomerDoesNotExist_ShouldThrowException() throws CustomException{
 
@@ -64,6 +45,20 @@ public class RentMovieServiceTest {
     }
 
     @Test
+    public void rentAMovie_WhenMovieIsNotAvailable_ShouldThrowException() throws CustomException{
+        Movie movie = MoviesCatalogueLoader.getAllMoviesMap().get(UNAVAILABLE_MOVIE_ID);
+        objectUnderTest.rentAMovie(CUSTOMER_ID, UNAVAILABLE_MOVIE_ID, NUMBER_OF_DAYS_TO_RENT);
+
+        thrown.expect(CustomException.class);
+        thrown.expectMessage("Movie "+ movie.getTitle()+" is not Available. It will be returned on: "+movie.getReturnDate());
+
+        objectUnderTest.rentAMovie(CUSTOMER_ID, UNAVAILABLE_MOVIE_ID, NUMBER_OF_DAYS_TO_RENT);
+
+        ReturnMovieService returnMovieService = new ReturnMovieService();
+        returnMovieService.returnAMovie(CUSTOMER_ID,UNAVAILABLE_MOVIE_ID);
+    }
+
+    @Test
     public void rentAMovie_WhenRentMovieIsSuccesfull_ShouldSetValuesCorrectly() throws CustomException{
         Movie movie = MoviesCatalogueLoader.getAllMoviesMap().get(MOVIE_ID);
         Customer customer = CustomersLoader.getAllCustomersMap().get(CUSTOMER_ID);
@@ -77,5 +72,7 @@ public class RentMovieServiceTest {
         assertTrue(customer.getMoviesRented().contains(movie));
         assertEquals((Integer)movie.getPricing().calculateRentPrice(NUMBER_OF_DAYS_TO_RENT), customer.getAmountPaidPerMovie().get(MOVIE_ID));
 
+        ReturnMovieService returnMovieService = new ReturnMovieService();
+        returnMovieService.returnAMovie(CUSTOMER_ID, MOVIE_ID);
     }
 }

@@ -8,7 +8,7 @@ import com.joanadantas.RegularPricing;
 
 import java.time.LocalDate;
 
-@JsonPropertyOrder({"id","title","publishDate","isAvailable","returnDate","pricing"})
+@JsonPropertyOrder({"id","title","publishDate","isAvailable","returnDate", "rentDate","pricing"})
 public class Movie {
 
     private static final int NUMBER_OF_DAYS_FOR_NEW_RELEASE = 3*30;
@@ -19,6 +19,7 @@ public class Movie {
     private final String publishDate;
     private boolean isAvailable;
     private String returnDate;
+    private String rentDate;
     private final Pricing pricing;
 
     public Movie (String id, String title, String publishDate) {
@@ -27,6 +28,7 @@ public class Movie {
         this.publishDate = publishDate;
         this.isAvailable = true;
         this.returnDate = "";
+        this.rentDate = "";
         this.pricing = getPricingByMovieAge();
     }
 
@@ -50,6 +52,10 @@ public class Movie {
         return returnDate;
     }
 
+    public String getRentDate() {
+        return returnDate;
+    }
+
     public Pricing getPricing() {
         return pricing;
     }
@@ -60,6 +66,10 @@ public class Movie {
 
     public void setReturnDate(String returnDate) {
         this.returnDate = returnDate;
+    }
+
+    public void setRentDate(String rentDate) {
+        this.returnDate = rentDate;
     }
 
     Pricing getPricingByMovieAge() {

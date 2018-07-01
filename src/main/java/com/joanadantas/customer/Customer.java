@@ -55,8 +55,11 @@ public class Customer {
         moviesRented.remove(movie);
     }
 
-    public void setAmountPaidPerMovie(Movie movie, int daysToRent){
-        amountPaidPerMovie.put(movie.getId(),movie.getPricing().calculateRentPrice(daysToRent));
+    public void setAmountPaidPerMovie(String movieId, int amount){
+        amountPaidPerMovie.put(movieId, amount);
     }
 
+    public void removeAmountPaidPerMovie(String movieId){
+        amountPaidPerMovie.remove(movieId);
+    }
 }
