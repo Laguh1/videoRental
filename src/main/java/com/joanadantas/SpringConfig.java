@@ -3,10 +3,19 @@ package com.joanadantas;
 import com.joanadantas.service.RentMovieService;
 import com.joanadantas.service.ReturnMovieService;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.FilterType;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
 
 @Configuration
-public class SpringConfig {
+@EnableWebMvc
+@ComponentScan(basePackages ={"com.joanadantas"}, excludeFilters = {
+        @ComponentScan.Filter(type = FilterType.ANNOTATION, value = Configuration.class)
+})
+public class SpringConfig extends WebMvcConfigurerAdapter {
 
     @Bean
     public RentMovieService getRentMovieService() {

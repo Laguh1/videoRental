@@ -1,6 +1,11 @@
 package com.joanadantas.customer.dao;
 
+import com.joanadantas.SpringConfig;
 import com.joanadantas.customer.Customer;
+import com.joanadantas.service.RentMovieService;
+import com.joanadantas.service.ReturnMovieService;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,8 +18,8 @@ public class CustomersLoader {
     private static List<Customer> allCustomersList;
     private static HashMap<String, Customer> allCustomersMap;
 
-
     public static List<Customer> getAllCustomersList(){
+
         if (allCustomersList != null){
             return allCustomersList;
         }else{
