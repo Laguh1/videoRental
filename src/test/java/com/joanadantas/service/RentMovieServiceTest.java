@@ -69,6 +69,7 @@ public class RentMovieServiceTest {
         assertEquals(currentCustomerBonusPoint+REGULAR_BONUS_POINT, customer.getBonusPoint());
         assertFalse(movie.getIsAvailable());
         assertEquals(LocalDate.now().plusDays(NUMBER_OF_DAYS_TO_RENT).toString(), movie.getReturnDate());
+        assertEquals(LocalDate.now().toString(), movie.getRentDate());
         assertTrue(customer.getMoviesRented().contains(movie));
         assertEquals((Integer)movie.getPricing().calculateRentPrice(NUMBER_OF_DAYS_TO_RENT), customer.getAmountPaidPerMovie().get(MOVIE_ID));
 

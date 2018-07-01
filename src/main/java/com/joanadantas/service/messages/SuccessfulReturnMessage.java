@@ -7,14 +7,14 @@ public class SuccessfulReturnMessage {
     private String customerId;
     private String customerName;
     private Movie returnedMovie;
-    private boolean isOperationSuccessful;
+    private boolean isReturnSuccessful;
     private int amountToPay;
 
     public SuccessfulReturnMessage(String customerId, String customerName, Movie returnedMovie, int amountToPay) {
         this.customerId = customerId;
         this.customerName = customerName;
         this.returnedMovie = returnedMovie;
-        this.isOperationSuccessful = true;
+        this.isReturnSuccessful = true;
         this.amountToPay = amountToPay;
     }
 
@@ -30,8 +30,8 @@ public class SuccessfulReturnMessage {
         return returnedMovie;
     }
 
-    public boolean getOperationSuccessful() {
-        return isOperationSuccessful;
+    public boolean getReturnSuccessful() {
+        return isReturnSuccessful;
     }
 
     public int getAmountToPay() {

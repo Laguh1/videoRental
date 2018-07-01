@@ -53,7 +53,7 @@ public class Movie {
     }
 
     public String getRentDate() {
-        return returnDate;
+        return rentDate;
     }
 
     public Pricing getPricing() {
@@ -69,7 +69,7 @@ public class Movie {
     }
 
     public void setRentDate(String rentDate) {
-        this.returnDate = rentDate;
+        this.rentDate = rentDate;
     }
 
     Pricing getPricingByMovieAge() {

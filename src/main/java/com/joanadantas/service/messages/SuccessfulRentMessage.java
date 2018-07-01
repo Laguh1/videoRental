@@ -7,14 +7,14 @@ public class SuccessfulRentMessage {
     private String customerId;
     private String customerName;
     private Movie rentedMovie;
-    private boolean isOperationSuccessful;
+    private boolean isRentSuccessful;
     private int amountToPay;
 
     public SuccessfulRentMessage(String customerId, String customerName, Movie rentedMovie, int amountToPay) {
         this.customerId = customerId;
         this.customerName = customerName;
         this.rentedMovie = rentedMovie;
-        this.isOperationSuccessful = true;
+        this.isRentSuccessful = true;
         this.amountToPay = amountToPay;
     }
 
@@ -31,7 +31,7 @@ public class SuccessfulRentMessage {
     }
 
     public boolean getOperationStatus() {
-        return isOperationSuccessful;
+        return isRentSuccessful;
     }
 
     public int getAmountToPay() {
