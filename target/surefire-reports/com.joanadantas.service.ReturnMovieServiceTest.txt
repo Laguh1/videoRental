@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.joanadantas.service.ReturnMovieServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! - in com.joanadantas.service.ReturnMovieServiceTest
+returnAMovie_WhenMovieIsNotRented_ShouldThrowException(com.joanadantas.service.ReturnMovieServiceTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Expected test to throw (an instance of com.joanadantas.service.CustomException and exception with message a string containing "Movie Matrix 11 is currently not rented by this customer.")
+
+returnAMovie_WhenReturnMovieIsSuccesfull_ShouldSetValuesCorrectly(com.joanadantas.service.ReturnMovieServiceTest)  Time elapsed: 0 s  <<< ERROR!
+com.joanadantas.service.CustomException: Movie Spider Man is not Available. It will be returned on: 2018-07-01
+	at com.joanadantas.service.ReturnMovieServiceTest.returnAMovie_WhenReturnMovieIsSuccesfull_ShouldSetValuesCorrectly(ReturnMovieServiceTest.java:59)
+
