@@ -13,8 +13,6 @@ public abstract class Pricing implements CalculatePrice{
     private  int pricePerDay;
     private  int numberOfFixedDays;
 
-   // public Pricing(){}
-
     public Pricing (String rateProperty, String priceProperty, String daysProperty){
         this.pricingRate = PropertyService.getInstance().getProperty(rateProperty, DEFAULT_PRICE_RATE);
         this.pricePerDay = PropertyService.getInstance().getPropertyInInteger(priceProperty, DEFAULT_PRICE_VALUE);
@@ -31,10 +29,6 @@ public abstract class Pricing implements CalculatePrice{
 
     public String getPricingRate() {
         return pricingRate;
-    }
-
-    public void setPricePerDay(int pricePerDay) {
-        this.pricePerDay = pricePerDay;
     }
 
     @Override

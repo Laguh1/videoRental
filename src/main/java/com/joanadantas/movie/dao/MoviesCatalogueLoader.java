@@ -10,7 +10,7 @@ import java.util.List;
 
 public class MoviesCatalogueLoader {
 
-    //Creates a cached list of films for testing the app simulates database as json file
+    //Creates a cached list of films for using the app simulates database as json file
     private static List<Movie> allMovies;
     private static HashMap<String, Movie> allMoviesMap;
 
@@ -47,5 +47,4 @@ public class MoviesCatalogueLoader {
         }
         return moviesList;
     }
-
 }

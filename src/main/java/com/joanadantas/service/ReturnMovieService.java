@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 
 @Service
-public class ReturnMovieService {
+public class ReturnMovieService implements ReturnService{
 
     private static final String CUSTOMER_NOT_FOUND = "Customer with id: %s not found.";
     private static final String MOVIE_NOT_FOUND = "Movie with id: %s not found.";

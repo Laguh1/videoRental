@@ -6,14 +6,20 @@ import com.joanadantas.NewReleasePricing;
 import com.joanadantas.OldMoviePricing;
 import com.joanadantas.Pricing;
 import com.joanadantas.RegularPricing;
+import com.joanadantas.util.PropertyService;
 
 import java.time.LocalDate;
 
 @JsonPropertyOrder({"id","title","publishDate","isAvailable","returnDate", "rentDate","pricing"})
 public class Movie {
 
-    private static final int NUMBER_OF_DAYS_FOR_NEW_RELEASE = 3*30;
+    private static final String DEFAULT_NUMBER_OF_DAYS_FOR_NEW_RELEASE = "90";
+    private static final String DEFAULT_NUMBER_OF_DAYS_FOR_OLD_MOVIE = "1825";
+    private static final int NUMBER_OF_DAYS_FOR_NEW_RELEASE = Integer.parseInt(PropertyService.getInstance().getProperty("new_release_age_in_days", DEFAULT_PRICE_RATE));
     private static final int NUMBER_OF_DAYS_FOR_OLD_MOVIE = 5*12*30;
+
+
+
 
     private String id;
     private String title;

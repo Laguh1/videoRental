@@ -10,7 +10,7 @@ public class PropertyService {
     String fileName = "pricing.properties";
     Properties pricingProperties;
 
-    private PropertyService(){};
+    private PropertyService(){}
 
     public static PropertyService getInstance(){
         if (propertyService==null){

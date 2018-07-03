@@ -17,7 +17,7 @@ import java.util.*;
 
 public class CustomersLoader {
 
-    //Creates a cached list of films for testing the app
+    //Creates a cached list of films for using the app simulates database as json file
     private static List<Customer> allCustomersList;
     private static HashMap<String, Customer> allCustomersMap;
 
@@ -26,13 +26,7 @@ public class CustomersLoader {
         if (allCustomersList != null){
             return allCustomersList;
         }else{
-       //     allCustomersList = new CustomersLoader().getCustomersFromJson();
-            allCustomersList = new ArrayList<>();
-          Customer customer1 = new Customer("001","Mary");
-            Customer customer2 = new Customer("002","Joe");
-            allCustomersList.addAll(Arrays.asList(customer1, customer2));
-
-            return allCustomersList;
+            return new CustomersLoader().getCustomersFromJson();
         }
     }
 
@@ -45,35 +39,18 @@ public class CustomersLoader {
             return allCustomersMap;
         }
     }
-/*
-    ObjectMapper mapper = new ObjectMapper();
 
-    private List<Customer> getCustomersFromJson() {
-
-        List<Customer> listofCustomers = null;
-
-
-      //  Customers customers.json = null;
-        try {
-            // Convert JSON string from file to Object
-      //      customers.json = mapper.readValue(new File("customer"), Movies.class);
-
-
-
-            listofCustomers = mapper.readValue(jsonCarArray, new TypeReference<List<Customer>>(){});
-
-            ClassLoader classLoader = getClass().getClassLoader();
-            File jsonFile = new File(classLoader.getResource("customers.json").getFile());
-            Customer[] arrayOfCustomer = mapper.readValue(jsonFile, Arrays.class);
-            listofCustomers = Arrays.asList(mapper.readValue(jsonFile, Arrays.class));
-        } catch (JsonGenerationException e) {
-            e.printStackTrace();
-        } catch (JsonMappingException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+    private List<Customer> getCustomersFromJson(){
+        ClassLoader classLoader = getClass().getClassLoader();
+        File jsonFile = new File(classLoader.getResource("customers.json").getFile());
+        ObjectMapper objectMapper = new ObjectMapper();
+        TypeReference<List<Customer>> mapType = new TypeReference<List<Customer>>() {};
+        List<Customer> customersList = null;
+        try{
+            customersList = objectMapper.readValue(jsonFile, mapType);
+        }catch (Exception ex){
+            ex.printStackTrace();
         }
-        return listofCustomers;
-    }*/
-
+        return customersList;
+    }
 }
