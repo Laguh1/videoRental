@@ -6,10 +6,28 @@ import com.joanadantas.movie.Movie;
 import com.joanadantas.movie.dao.MoviesCatalogueLoader;
 import org.junit.*;
 import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import static org.junit.Assert.*;
 
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration
 public class ReturnMovieServiceTest {
+
+    @Configuration
+    static class ContextConfiguration {
+
+        @Bean
+        public RentService returnService() {
+            RentService rentMovieService = new RentMovieService();
+            return rentMovieService;
+        }
+    }
 
     private static final String CUSTOMER_ID = "001";
     private static final String NON_EXISTANT_CUSTOMER_ID = "999";
@@ -20,7 +38,8 @@ public class ReturnMovieServiceTest {
 
     private Movie notRentedMovie;
     private  Movie rentedMovie;
-    private RentMovieService rentMovieService;
+    @Autowired
+    private RentService rentMovieService;
     private ReturnMovieService objectUnderTest;
 
     @Rule
@@ -35,7 +54,6 @@ public class ReturnMovieServiceTest {
         }
         rentedMovie = MoviesCatalogueLoader.getAllMoviesMap().get(MOVIE_ID);
         if(rentedMovie.getIsAvailable()){
-            rentMovieService = new RentMovieService();
             rentMovieService.rentAMovie(CUSTOMER_ID, MOVIE_ID, NUMBER_OF_DAYS_TO_RENT);
         }
     }

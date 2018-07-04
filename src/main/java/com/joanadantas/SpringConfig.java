@@ -14,9 +14,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages ={"com.joanadantas"}, excludeFilters = {
+@ComponentScan(basePackages ={"com.joanadantas"}
+/*, excludeFilters = {
         @ComponentScan.Filter(type = FilterType.ANNOTATION, value = Configuration.class)
-})
+}*/
+)
 public class SpringConfig extends WebMvcConfigurerAdapter {
 
     @Bean

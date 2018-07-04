@@ -6,12 +6,30 @@ import com.joanadantas.movie.Movie;
 import com.joanadantas.movie.dao.MoviesCatalogueLoader;
 import org.junit.*;
 import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.time.LocalDate;
 
 import static org.junit.Assert.*;
 
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration
 public class RentMovieServiceTest {
+
+    @Configuration
+    static class ContextConfiguration {
+
+        @Bean
+        public ReturnService returnService() {
+            ReturnService returnMovieService = new ReturnMovieService();
+            return returnMovieService;
+        }
+    }
 
     private static final String CUSTOMER_ID = "001";
     private static final String NON_EXISTANT_CUSTOMER_ID = "999";
@@ -23,8 +41,9 @@ public class RentMovieServiceTest {
 
     private Movie unavailableMovie;
     private Movie notRentedMovie;
-    private ReturnMovieService returnMovieService;
-    private RentMovieService objectUnderTest;
+    @Autowired
+    private ReturnService returnMovieService;
+    private RentService objectUnderTest;
 
     @Rule
     public ExpectedException thrown = ExpectedException.none();
@@ -32,7 +51,6 @@ public class RentMovieServiceTest {
     @Before
     public void setUp() throws CustomException{
         objectUnderTest = new RentMovieService();
-        returnMovieService = new ReturnMovieService();
         unavailableMovie = MoviesCatalogueLoader.getAllMoviesMap().get(UNAVAILABLE_MOVIE_ID);
         if(unavailableMovie.getIsAvailable()){
             objectUnderTest.rentAMovie(CUSTOMER_ID, UNAVAILABLE_MOVIE_ID, NUMBER_OF_DAYS_TO_RENT);
@@ -71,7 +89,6 @@ public class RentMovieServiceTest {
     @Test
     public void rentAMovie_WhenMovieIsNotAvailable_ShouldThrowException() throws CustomException{
         Movie movie = MoviesCatalogueLoader.getAllMoviesMap().get(UNAVAILABLE_MOVIE_ID);
-      //  objectUnderTest.rentAMovie(CUSTOMER_ID, UNAVAILABLE_MOVIE_ID, NUMBER_OF_DAYS_TO_RENT);
 
         thrown.expect(CustomException.class);
         thrown.expectMessage("Movie "+ movie.getTitle()+" is not Available. It will be returned on: "+movie.getReturnDate());
