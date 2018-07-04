@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Mary",
+    "id": "001",
+    "amountPaidPerMovie": {},
+    "bonusPoint": 0,
+    "moviesRented": []
+  },
+  {
+    "name": "Joe",
+    "id": "002",
+    "amountPaidPerMovie": {},
+    "bonusPoint": 0,
+    "moviesRented": []
+  }
+]

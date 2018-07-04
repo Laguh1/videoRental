@@ -3,9 +3,6 @@ package com.joanadantas.resources;
 import com.joanadantas.customer.Customer;
 import com.joanadantas.customer.Customers;
 import com.joanadantas.customer.dao.CustomersLoader;
-import com.joanadantas.movie.Movie;
-import com.joanadantas.movie.Movies;
-import com.joanadantas.movie.dao.MoviesCatalogueLoader;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

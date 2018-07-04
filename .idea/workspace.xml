@@ -7,9 +7,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a8eb766-d9f2-495f-b004-1ec870f7f0d8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulRentMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulRentMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulReturnMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulReturnMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0ca0321d30d89d5aa48899b24d6ba5fdd7158201" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/16d629c5abf9cebdacc0fab9a36c050a8aa8e215" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/27dbed3a58d0a2a50e78cfec96972e4a7aee4eac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a7a2c36f04791b5ebc9988a4761ca762b7a7937" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38c797a3fd1f5a098ac73a5c305f365455f90c06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4223246c191694f4d7d4a1c3d79353d56e18ff98" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c14c2d54b7baf08f97f1ce42ea98da79bbbb319" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b029e9d340c0417498fbb86fc712a9cf4f43e9a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88f504702d0e3e5702a8a11c4bed3bb9953fe94e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90e71393680e3008ecdd62892a299da08a476ed0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9cc8e134571aa109ea13669d4630545d12788d78" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce67fb0745a8b02fe063c329aaaeff0ca7df069a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/deacdc9927c9963887e2a4ac873c11e0a141aaef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0840aacfce0b43ba90b26f15b4acf8e5f543df0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec30fa923d1148b1e6167ceaee9cac91d4178c22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/ReturnService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/customers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/moviesCatalogue.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/customer/dao/CustomersLoader$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/movie/dao/MoviesCatalogueLoader$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/customers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/moviesCatalogue.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/dao/CustomersLoader$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/dao/MoviesCatalogueLoader$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/customers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/moviesCatalogue.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/Pricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/Pricing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/dao/CustomersLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/dao/CustomersLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/CustomerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/CustomerResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/ReturnMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/ReturnMovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/util/PropertyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/util/PropertyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pricing.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pricing.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/Pricing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/Pricing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/customer/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/customer/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/customer/dao/CustomersLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/customer/dao/CustomersLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/movie/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/movie/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/movie/dao/MoviesCatalogueLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/movie/dao/MoviesCatalogueLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/resources/CustomerResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/resources/CustomerResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/resources/MovieResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/resources/MovieResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/Pricing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/Pricing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/dao/CustomersLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/dao/CustomersLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/dao/MoviesCatalogueLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/dao/MoviesCatalogueLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/resources/CustomerResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/resources/CustomerResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/resources/MovieResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/resources/MovieResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/SuccessfulRentMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/SuccessfulRentMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/SuccessfulReturnMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/SuccessfulReturnMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videorental.iml" beforeDir="false" afterPath="$PROJECT_DIR$/videorental.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,103 +81,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RentMovieServiceTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="61" column="68" lean-forward="true" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReturnMovieServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/service/ReturnMovieServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="46" column="96" lean-forward="true" selection-start-line="46" selection-start-column="96" selection-end-line="46" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RentMovieService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReturnMovieService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/ReturnMovieService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="40" column="98" selection-start-line="40" selection-start-column="98" selection-end-line="40" selection-end-column="98" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuccessfulRentMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulRentMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuccessfulReturnMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulReturnMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RentResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/RentResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoviesCatalogueLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java">
+      <file leaf-file-name="RegularPricingTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/RegularPricingTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/customer/Customer.java">
+      <file leaf-file-name="pricing.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/pricing.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertyService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/util/PropertyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1318#1319#0" expanded="true" />
-                <element signature="e#1372#1373#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pricing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/Pricing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Movies.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoviesCatalogueLoader.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomersLoader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/customer/dao/CustomersLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,22 +171,19 @@
       <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+            <state relative-caret-position="345">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/movie/MovieTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
-                <element signature="e#1452#1453#0" expanded="true" />
-                <element signature="e#1487#1488#0" expanded="true" />
-                <element signature="e#1517#1518#0" expanded="true" />
-                <element signature="e#1571#1572#0" expanded="true" />
-                <element signature="e#1617#1618#0" expanded="true" />
-                <element signature="e#1669#1670#0" expanded="true" />
-                <element signature="e#1713#1714#0" expanded="true" />
-                <element signature="e#1769#1770#0" expanded="true" />
-                <element signature="e#1813#1814#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,21 +195,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>servlet</find>
-      <find>@Configuration</find>
-      <find>jstl</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet</dir>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -179,50 +207,28 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/PricingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/joanadantas/PricingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/CalculatePrice.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/NewReleasePricing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/OldMoviePricing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/RegularPricing.java" />
         <option value="$PROJECT_DIR$/src/main/resources/pricing.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/Pricing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/util/PropertyService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/joanadantas/RegularPricingTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/joanadantas/movie/MovieTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/Customers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/CustomerResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/CalculatePrice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movies.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/service/CustomException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/service/dto/CustomExceptionMessageDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/service/dto/CustomErrorMessageDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/Pricing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/RentalWebAppInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/WebApplicationInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/SpringConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/WebConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/RentalWebApplicationInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/dao/CustomersLoader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/service/dto/SuccesfullRentMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccesfullRentMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccesfulRentMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/RentResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/service/ReturnMovieService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/joanadantas/service/ReturnMovieServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulReturnMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulRentMessage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java" />
       </list>
     </option>
   </component>
@@ -251,11 +257,6 @@
           <item name="videorental" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="videorental" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -264,9 +265,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="753" />
+    <option name="width" value="1401" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -274,6 +276,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -351,50 +354,7 @@
               <item name="videorental" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="joanadantas" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videorental" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videorental" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="joanadantas" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videorental" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videorental" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="joanadantas" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="messages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videorental" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videorental" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videorental" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videorental" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videorental" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videorental" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="videorental" type="b2602c69:ProjectViewProjectNode" />
@@ -435,32 +395,33 @@
               <item name="joanadantas" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="videorental" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videorental" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.joanadantas.service" />
       <recent name="com.joanadantas.movie" />
       <recent name="com.joanadantas" />
     </key>
@@ -483,22 +444,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RentMovieServiceTest">
+  <component name="RunManager" selected="Tomcat Server.VieoRental">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="RentMovieServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="videorental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.joanadantas.service.*" />
+          <option name="PATTERN" value="com.joanadantas.movie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.joanadantas.service" />
-      <option name="MAIN_CLASS_NAME" value="com.joanadantas.service.RentMovieServiceTest" />
+      <option name="PACKAGE_NAME" value="com.joanadantas.movie" />
+      <option name="MAIN_CLASS_NAME" value="com.joanadantas.movie.MovieTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -510,19 +471,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RentMovieServiceTest.rentAMovie_WhenRentMovieIsSuccesfull_ShouldSetValuesCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="videorental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.joanadantas.service.*" />
+          <option name="PATTERN" value="com.joanadantas.movie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.joanadantas.service" />
-      <option name="MAIN_CLASS_NAME" value="com.joanadantas.service.RentMovieServiceTest" />
-      <option name="METHOD_NAME" value="rentAMovie_WhenRentMovieIsSuccesfull_ShouldSetValuesCorrectly" />
+      <option name="PACKAGE_NAME" value="com.joanadantas.movie" />
+      <option name="MAIN_CLASS_NAME" value="com.joanadantas.movie.MovieTest" />
+      <option name="METHOD_NAME" value="getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -533,18 +494,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ReturnMovieServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegularPricingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="videorental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.joanadantas.service.*" />
+          <option name="PATTERN" value="com.joanadantas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.joanadantas.service" />
-      <option name="MAIN_CLASS_NAME" value="com.joanadantas.service.ReturnMovieServiceTest" />
+      <option name="PACKAGE_NAME" value="com.joanadantas" />
+      <option name="MAIN_CLASS_NAME" value="com.joanadantas.RegularPricingTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -556,19 +517,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ReturnMovieServiceTest.returnAMovie_WhenCustomerDoesNotExist_ShouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegularPricingTest.calculateRentPrice_OverDayLimit_ShouldReturnFixedpriceTimesDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="videorental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.joanadantas.service.*" />
+          <option name="PATTERN" value="com.joanadantas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.joanadantas.service" />
-      <option name="MAIN_CLASS_NAME" value="com.joanadantas.service.ReturnMovieServiceTest" />
-      <option name="METHOD_NAME" value="returnAMovie_WhenCustomerDoesNotExist_ShouldThrowException" />
+      <option name="PACKAGE_NAME" value="com.joanadantas" />
+      <option name="MAIN_CLASS_NAME" value="com.joanadantas.RegularPricingTest" />
+      <option name="METHOD_NAME" value="calculateRentPrice_OverDayLimit_ShouldReturnFixedpriceTimesDays" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -579,19 +540,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ReturnMovieServiceTest.returnAMovie_WhenReturnMovieIsSuccesfull_ShouldSetValuesCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegularPricingTest.calculateRentPrice_SameAsDayLimit_ShouldReturnFixedprice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="videorental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.joanadantas.service.*" />
+          <option name="PATTERN" value="com.joanadantas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.joanadantas.service" />
-      <option name="MAIN_CLASS_NAME" value="com.joanadantas.service.ReturnMovieServiceTest" />
-      <option name="METHOD_NAME" value="returnAMovie_WhenReturnMovieIsSuccesfull_ShouldSetValuesCorrectly" />
+      <option name="PACKAGE_NAME" value="com.joanadantas" />
+      <option name="MAIN_CLASS_NAME" value="com.joanadantas.RegularPricingTest" />
+      <option name="METHOD_NAME" value="calculateRentPrice_SameAsDayLimit_ShouldReturnFixedprice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -640,7 +601,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="VideoRental" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.39" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="VieoRental" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.30" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="videorental:war exploded">
@@ -806,20 +767,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.VideoRental" />
-      <item itemvalue="JUnit.RentMovieServiceTest" />
-      <item itemvalue="JUnit.ReturnMovieServiceTest.returnAMovie_WhenCustomerDoesNotExist_ShouldThrowException" />
-      <item itemvalue="JUnit.ReturnMovieServiceTest.returnAMovie_WhenReturnMovieIsSuccesfull_ShouldSetValuesCorrectly" />
-      <item itemvalue="JUnit.ReturnMovieServiceTest" />
-      <item itemvalue="JUnit.RentMovieServiceTest.rentAMovie_WhenRentMovieIsSuccesfull_ShouldSetValuesCorrectly" />
+      <item itemvalue="Tomcat Server.VieoRental" />
+      <item itemvalue="JUnit.RegularPricingTest.calculateRentPrice_SameAsDayLimit_ShouldReturnFixedprice" />
+      <item itemvalue="JUnit.RegularPricingTest" />
+      <item itemvalue="JUnit.RegularPricingTest.calculateRentPrice_OverDayLimit_ShouldReturnFixedpriceTimesDays" />
+      <item itemvalue="JUnit.MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" />
+      <item itemvalue="JUnit.MovieTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RentMovieServiceTest" />
-        <item itemvalue="JUnit.RentMovieServiceTest.rentAMovie_WhenRentMovieIsSuccesfull_ShouldSetValuesCorrectly" />
-        <item itemvalue="JUnit.ReturnMovieServiceTest" />
-        <item itemvalue="JUnit.ReturnMovieServiceTest.returnAMovie_WhenReturnMovieIsSuccesfull_ShouldSetValuesCorrectly" />
-        <item itemvalue="JUnit.ReturnMovieServiceTest.returnAMovie_WhenCustomerDoesNotExist_ShouldThrowException" />
+        <item itemvalue="JUnit.MovieTest" />
+        <item itemvalue="JUnit.MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" />
+        <item itemvalue="JUnit.RegularPricingTest" />
+        <item itemvalue="JUnit.RegularPricingTest.calculateRentPrice_OverDayLimit_ShouldReturnFixedpriceTimesDays" />
+        <item itemvalue="JUnit.RegularPricingTest.calculateRentPrice_SameAsDayLimit_ShouldReturnFixedprice" />
       </list>
     </recent_temporary>
   </component>
@@ -834,55 +795,54 @@
       <option name="presentableId" value="Default" />
       <updated>1529848682412</updated>
       <workItem from="1529848683899" duration="8344000" />
-      <workItem from="1529928586124" duration="26124000" />
-      <workItem from="1530303235738" duration="639000" />
-      <workItem from="1530304013206" duration="42912000" />
+      <workItem from="1529928586124" duration="26220000" />
+      <workItem from="1530653678395" duration="264000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RentMovieServiceTest_rentAMovie_WhenMovieDoesNotExist_ShouldThrowException - 2018.07.01 at 18h 26m 53s.xml">
-      <configuration name="RentMovieServiceTest.rentAMovie_WhenMovieDoesNotExist_ShouldThrowException" configurationId="JUnit" />
+    <history-entry file="MovieTest - 2018.06.29 at 14h 47m 08s.xml">
+      <configuration name="MovieTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RentMovieServiceTest_rentAMovie_WhenMovieDoesNotExist_ShouldThrowException - 2018.07.01 at 18h 27m 17s.xml">
-      <configuration name="RentMovieServiceTest.rentAMovie_WhenMovieDoesNotExist_ShouldThrowException" configurationId="JUnit" />
+    <history-entry file="MovieTest_getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie - 2018.06.29 at 14h 41m 39s.xml">
+      <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RentMovieServiceTest - 2018.07.01 at 18h 27m 24s.xml">
-      <configuration name="RentMovieServiceTest" configurationId="JUnit" />
+    <history-entry file="MovieTest_getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie - 2018.06.29 at 14h 42m 38s.xml">
+      <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReturnMovieServiceTest_returnAMovie_WhenCustomerDoesNotExist_ShouldThrowException - 2018.07.01 at 18h 59m 56s.xml">
-      <configuration name="ReturnMovieServiceTest.returnAMovie_WhenCustomerDoesNotExist_ShouldThrowException" configurationId="JUnit" />
+    <history-entry file="MovieTest_getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie - 2018.06.29 at 14h 44m 06s.xml">
+      <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReturnMovieServiceTest_returnAMovie_WhenCustomerDoesNotExist_ShouldThrowException - 2018.07.01 at 19h 10m 12s.xml">
-      <configuration name="ReturnMovieServiceTest.returnAMovie_WhenCustomerDoesNotExist_ShouldThrowException" configurationId="JUnit" />
+    <history-entry file="MovieTest_getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie - 2018.06.29 at 14h 44m 10s.xml">
+      <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReturnMovieServiceTest_returnAMovie_WhenReturnMovieIsSuccesfull_ShouldSetValuesCorrectly - 2018.07.01 at 19h 48m 34s.xml">
-      <configuration name="ReturnMovieServiceTest.returnAMovie_WhenReturnMovieIsSuccesfull_ShouldSetValuesCorrectly" configurationId="JUnit" />
+    <history-entry file="MovieTest_getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie - 2018.06.29 at 14h 44m 17s.xml">
+      <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReturnMovieServiceTest_returnAMovie_WhenReturnMovieIsSuccesfull_ShouldSetValuesCorrectly - 2018.07.01 at 19h 49m 01s.xml">
-      <configuration name="ReturnMovieServiceTest.returnAMovie_WhenReturnMovieIsSuccesfull_ShouldSetValuesCorrectly" configurationId="JUnit" />
+    <history-entry file="MovieTest_getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie - 2018.06.29 at 14h 44m 20s.xml">
+      <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReturnMovieServiceTest - 2018.07.01 at 19h 49m 22s.xml">
-      <configuration name="ReturnMovieServiceTest" configurationId="JUnit" />
+    <history-entry file="MovieTest_getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie - 2018.06.29 at 14h 44m 23s.xml">
+      <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReturnMovieServiceTest - 2018.07.01 at 20h 19m 48s.xml">
-      <configuration name="ReturnMovieServiceTest" configurationId="JUnit" />
+    <history-entry file="RegularPricingTest - 2018.06.29 at 12h 17m 30s.xml">
+      <configuration name="RegularPricingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RentMovieServiceTest - 2018.07.01 at 20h 27m 00s.xml">
-      <configuration name="RentMovieServiceTest" configurationId="JUnit" />
+    <history-entry file="RegularPricingTest - 2018.06.29 at 12h 23m 57s.xml">
+      <configuration name="RegularPricingTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78019000" />
+    <option name="totallyTimeSpent" value="34828000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="753" extended-state="0" />
+    <frame x="4" y="23" width="1401" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="10" weight="0.32879046" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.175" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.16345468" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info id="Capture Tool" order="9" />
       <window_info id="Designer" order="3" />
@@ -890,32 +850,32 @@
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.33873343" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.3958042" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.27540502" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.24615385" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3078056" />
       <window_info anchor="bottom" id="Spring" order="17" />
       <window_info anchor="bottom" id="Terminal" order="15" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.8244898" visible="true" weight="0.19921875" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.8497854" visible="true" weight="0.18415418" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.31328672" />
       <window_info id="Learn" order="7" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="8" sideWeight="0.1755102" side_tool="true" weight="0.1265625" />
-      <window_info anchor="bottom" id="JRebel Executor" order="1" />
+      <window_info id="Favorites" order="8" sideWeight="0.1502146" side_tool="true" visible="true" weight="0.18415418" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="SonarLint" order="2" />
+      <window_info anchor="bottom" id="JRebel Console" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="JRebel" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32867134" />
+      <window_info anchor="bottom" id="SonarLint" order="2" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.31328672" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="JRebel Console" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -928,199 +888,33 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/RentResource.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/RentResource.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java</url>
           <line>38</line>
           <properties />
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/RentResource.java</url>
-          <line>35</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java</url>
+          <line>43</line>
           <properties />
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/RentResource.java</url>
-          <line>34</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java</url>
+          <line>47</line>
           <properties />
-          <option name="timeStamp" value="32" />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/RentResource.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/RentResource.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/CustomerResource.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/CustomerResource.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/CustomerResource.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/CustomerResource.java</url>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java</url>
           <line>33</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/RentResource.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/customer/Customer.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulRentMessage.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulRentMessage.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulRentMessage.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulRentMessage.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulRentMessage.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="65" />
+          <properties class="com.joanadantas.movie.Movie">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="67" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1133,45 +927,78 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movies.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/RegularPricing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/RegularPricingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pricing.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/util/PropertyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/Pricing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1452#1453#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-            <element signature="e#1617#1618#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
-            <element signature="e#1769#1770#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/movie/MovieTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="510">
           <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1182,7 +1009,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="37" column="87" selection-start-line="37" selection-start-column="87" selection-end-line="37" selection-end-column="87" />
+          <caret line="37" column="62" lean-forward="true" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1204,10 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1226,14 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1255,21 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1452#1453#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-            <element signature="e#1617#1618#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
-            <element signature="e#1769#1770#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1277,6 +1080,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="22" column="79" lean-forward="true" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1288,6 +1094,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/SimpleServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/PricingTest.java" />
     <entry file="uml://MAVEN/com.joanadantas:videorental:1.0-SNAPSHOT">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -1328,25 +1141,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/CalculatePrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/NewReleasePricing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/OldMoviePricing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/RegularPricing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#179#180#0" expanded="true" />
             <element signature="e#248#249#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pricing.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/Pricing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1362,7 +1210,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/RegularPricingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="150">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1370,250 +1218,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/OldMoviePricing.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/movie/MovieTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pricing.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/customer/Customers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="510">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="105">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/CustomExceptionMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="4" selection-start-column="3" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/RentalWebAppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/RentalWebApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/CustomerResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/SpringConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/CalculatePrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/CustomException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/CustomErrorMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/movie/MovieTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/customer/dao/CustomersLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="33" column="62" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/Pricing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1452#1453#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-            <element signature="e#1617#1618#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
-            <element signature="e#1769#1770#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/resources/RentResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/customer/dao/CustomersLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/customer/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
-            <element signature="e#1372#1373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/ReturnMovieService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="40" column="98" selection-start-line="40" selection-start-column="98" selection-end-line="40" selection-end-column="98" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1622,46 +1264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/service/ReturnMovieServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="46" column="96" lean-forward="true" selection-start-line="46" selection-start-column="96" selection-end-line="46" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulReturnMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulRentMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="61" column="68" lean-forward="true" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

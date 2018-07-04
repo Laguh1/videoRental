@@ -8,10 +8,10 @@ public abstract class Pricing implements CalculatePrice{
     private static final String DEFAULT_FIXED_DAYS = "3";
     private static final String DEFAULT_PRICE_RATE = "Regular";
 
-    private final String pricingRate;
-    // decided to use int instead of setting a money variable for simplicity
-    private final int pricePerDay;
-    private final int numberOfFixedDays;
+    private  String pricingRate;
+    // decided to use int instead of setting BigDecimal for simplicity
+    private  int pricePerDay;
+    private  int numberOfFixedDays;
 
     public Pricing (String rateProperty, String priceProperty, String daysProperty){
         this.pricingRate = PropertyService.getInstance().getProperty(rateProperty, DEFAULT_PRICE_RATE);
@@ -36,7 +36,6 @@ public abstract class Pricing implements CalculatePrice{
         int totalPrice = 0;
 
         if(daysRented>0){
-
             if(daysRented <= numberOfFixedDays){
                 totalPrice = pricePerDay;
             }else{

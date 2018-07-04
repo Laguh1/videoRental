@@ -9,19 +9,13 @@ import java.util.Map;
 
 public class Customer {
 
-    private final String id;
-    private final String name;
+    private String id;
+    private String name;
     private int bonusPoint;
     private Map<String, Integer> amountPaidPerMovie;
     private List<Movie> moviesRented;
 
-    public Customer(String id, String name){
-        this.id = id;
-        this.name = name;
-        this.bonusPoint = 0;
-        this.amountPaidPerMovie = new HashMap<>();
-        this.moviesRented = new ArrayList<>();
-    }
+    public Customer(){}
 
     public String getId() {
         return id;
@@ -62,4 +56,5 @@ public class Customer {
     public void removeAmountPaidPerMovie(String movieId){
         amountPaidPerMovie.remove(movieId);
     }
+
 }

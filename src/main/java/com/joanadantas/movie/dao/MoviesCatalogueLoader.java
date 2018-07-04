@@ -1,33 +1,25 @@
 package com.joanadantas.movie.dao;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.joanadantas.movie.Movie;
 
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.io.File;
 import java.util.HashMap;
 import java.util.List;
-import java.util.function.Function;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 
 public class MoviesCatalogueLoader {
 
-    //Creates a cached list of films for testing the app
+    //Creates a cached list of films for using the app simulates database as json file
     private static List<Movie> allMovies;
     private static HashMap<String, Movie> allMoviesMap;
-
 
     public static List<Movie> getAllMoviesList(){
         if (allMovies != null){
             return allMovies;
         }else{
-            allMovies = new ArrayList<>();
-            Movie movie1 = new Movie("001","Matrix 11", "2018-06-16");
-            Movie movie2 = new Movie("002","Spider Man", "2017-06-16");
-            Movie movie3 = new Movie("003","Spider Man 2", "2016-06-16");
-            Movie movie4 = new Movie("004","Out of Africa", "2011-06-16");
-            allMovies.addAll(Arrays.asList(movie1, movie2, movie3, movie4));
+            allMovies = new MoviesCatalogueLoader().getMoviesFromJson();
+            allMovies.stream().forEach(movie -> movie.setPricing());
             return allMovies;
         }
     }
@@ -40,5 +32,19 @@ public class MoviesCatalogueLoader {
            getAllMoviesList().forEach(movie -> allMoviesMap.put(movie.getId(),movie));
            return allMoviesMap;
         }
+    }
+
+    private List<Movie> getMoviesFromJson(){
+        ClassLoader classLoader = getClass().getClassLoader();
+        File jsonFile = new File(classLoader.getResource("moviesCatalogue.json").getFile());
+        ObjectMapper objectMapper = new ObjectMapper();
+        TypeReference<List<Movie>> mapType = new TypeReference<List<Movie>>() {};
+        List<Movie> moviesList = null;
+        try{
+            moviesList = objectMapper.readValue(jsonFile, mapType);
+        }catch (Exception ex){
+            ex.printStackTrace();
+        }
+        return moviesList;
     }
 }
