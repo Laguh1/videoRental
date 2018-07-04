@@ -15,11 +15,8 @@ public class Movie {
 
     private static final String DEFAULT_NUMBER_OF_DAYS_FOR_NEW_RELEASE = "90";
     private static final String DEFAULT_NUMBER_OF_DAYS_FOR_OLD_MOVIE = "1825";
-    private static final int NUMBER_OF_DAYS_FOR_NEW_RELEASE = Integer.parseInt(PropertyService.getInstance().getProperty("new_release_age_in_days", DEFAULT_PRICE_RATE));
-    private static final int NUMBER_OF_DAYS_FOR_OLD_MOVIE = 5*12*30;
-
-
-
+    private static final int NUMBER_OF_DAYS_FOR_NEW_RELEASE = Integer.parseInt(PropertyService.getInstance().getProperty("new_release_age_in_days", DEFAULT_NUMBER_OF_DAYS_FOR_NEW_RELEASE));
+    private static final int NUMBER_OF_DAYS_FOR_OLD_MOVIE = Integer.parseInt(PropertyService.getInstance().getProperty("old_movie_age_in_days", DEFAULT_NUMBER_OF_DAYS_FOR_OLD_MOVIE));
 
     private String id;
     private String title;
@@ -30,9 +27,7 @@ public class Movie {
     @JsonIgnore
     private Pricing pricing;
 
-    public Movie(){
-
-    }
+    public Movie(){}
 
     public String getId() {
         return id;

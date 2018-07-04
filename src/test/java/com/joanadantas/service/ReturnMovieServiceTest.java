@@ -7,8 +7,6 @@ import com.joanadantas.movie.dao.MoviesCatalogueLoader;
 import org.junit.*;
 import org.junit.rules.ExpectedException;
 
-import java.time.LocalDate;
-
 import static org.junit.Assert.*;
 
 public class ReturnMovieServiceTest {
@@ -20,14 +18,37 @@ public class ReturnMovieServiceTest {
     private static final String NON_EXISTANT_MOVIE_ID = "999";
     private static final int NUMBER_OF_DAYS_TO_RENT = 1;
 
-    private ReturnMovieService objectUnderTest = new ReturnMovieService();
+    private Movie notRentedMovie;
+    private  Movie rentedMovie;
+    private RentMovieService rentMovieService;
+    private ReturnMovieService objectUnderTest;
 
     @Rule
     public ExpectedException thrown = ExpectedException.none();
 
+    @Before
+    public void setUp() throws CustomException{
+        objectUnderTest = new ReturnMovieService();
+        notRentedMovie = MoviesCatalogueLoader.getAllMoviesMap().get(NOT_RENTED_MOVIE_ID);
+        if(!notRentedMovie.getIsAvailable()){
+            objectUnderTest.returnAMovie(CUSTOMER_ID, NOT_RENTED_MOVIE_ID);
+        }
+        rentedMovie = MoviesCatalogueLoader.getAllMoviesMap().get(MOVIE_ID);
+        if(rentedMovie.getIsAvailable()){
+            rentMovieService = new RentMovieService();
+            rentMovieService.rentAMovie(CUSTOMER_ID, MOVIE_ID, NUMBER_OF_DAYS_TO_RENT);
+        }
+    }
+
+    @After
+    public void clear() throws CustomException{
+        if(!rentedMovie.getIsAvailable()){
+            objectUnderTest.returnAMovie(CUSTOMER_ID, MOVIE_ID);
+        }
+    }
+
     @Test
     public void returnAMovie_WhenCustomerDoesNotExist_ShouldThrowException() throws CustomException{
-
         thrown.expect(CustomException.class);
         thrown.expectMessage("Customer with id: "+NON_EXISTANT_CUSTOMER_ID+" not found.");
 
@@ -36,7 +57,6 @@ public class ReturnMovieServiceTest {
 
     @Test
     public void returnAMovie_WhenMovieDoesNotExist_ShouldThrowException() throws CustomException{
-
         thrown.expect(CustomException.class);
         thrown.expectMessage("Movie with id: "+NON_EXISTANT_MOVIE_ID+" not found.");
 
@@ -55,9 +75,6 @@ public class ReturnMovieServiceTest {
 
     @Test
     public void returnAMovie_WhenReturnMovieIsSuccesfull_ShouldSetValuesCorrectly() throws CustomException{
-        RentMovieService rentMovieService = new RentMovieService();
-        rentMovieService.rentAMovie(CUSTOMER_ID, MOVIE_ID, NUMBER_OF_DAYS_TO_RENT);
-
         Movie movie = MoviesCatalogueLoader.getAllMoviesMap().get(MOVIE_ID);
         Customer customer = CustomersLoader.getAllCustomersMap().get(CUSTOMER_ID);
 

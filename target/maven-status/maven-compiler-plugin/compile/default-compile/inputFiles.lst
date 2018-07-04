@@ -5,7 +5,9 @@
 /Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java
 /Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/movie/Movies.java
 /Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/resources/RentResource.java
+/Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/service/ReturnService.java
 /Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/SpringConfig.java
+/Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/service/RentService.java
 /Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/RegularPricing.java
 /Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/util/PropertyService.java
 /Users/jodantas/Documents/studying_coding/studying_java_miscellanious/casumo/videorental/src/main/java/com/joanadantas/service/messages/SuccessfulReturnMessage.java

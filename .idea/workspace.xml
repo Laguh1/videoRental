@@ -7,66 +7,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a8eb766-d9f2-495f-b004-1ec870f7f0d8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0ca0321d30d89d5aa48899b24d6ba5fdd7158201" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/16d629c5abf9cebdacc0fab9a36c050a8aa8e215" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/27dbed3a58d0a2a50e78cfec96972e4a7aee4eac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a7a2c36f04791b5ebc9988a4761ca762b7a7937" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38c797a3fd1f5a098ac73a5c305f365455f90c06" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4223246c191694f4d7d4a1c3d79353d56e18ff98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c14c2d54b7baf08f97f1ce42ea98da79bbbb319" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b029e9d340c0417498fbb86fc712a9cf4f43e9a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88f504702d0e3e5702a8a11c4bed3bb9953fe94e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90e71393680e3008ecdd62892a299da08a476ed0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9cc8e134571aa109ea13669d4630545d12788d78" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce67fb0745a8b02fe063c329aaaeff0ca7df069a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/deacdc9927c9963887e2a4ac873c11e0a141aaef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0840aacfce0b43ba90b26f15b4acf8e5f543df0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec30fa923d1148b1e6167ceaee9cac91d4178c22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/ReturnService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/customers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moviesCatalogue.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/customer/dao/CustomersLoader$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/movie/dao/MoviesCatalogueLoader$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/customers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/moviesCatalogue.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/dao/CustomersLoader$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/dao/MoviesCatalogueLoader$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/customers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/moviesCatalogue.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/Pricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/Pricing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/dao/CustomersLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/dao/CustomersLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/CustomerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/CustomerResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/ReturnMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/ReturnMovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/util/PropertyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/util/PropertyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pricing.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pricing.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/Pricing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/Pricing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/joanadantas/service/ReturnMovieServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/joanadantas/service/ReturnMovieServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/customer/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/customer/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/customer/dao/CustomersLoader$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/customer/dao/CustomersLoader$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/customer/dao/CustomersLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/customer/dao/CustomersLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/movie/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/movie/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/movie/dao/MoviesCatalogueLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/movie/dao/MoviesCatalogueLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/resources/CustomerResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/resources/CustomerResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/resources/MovieResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/resources/MovieResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/Pricing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/Pricing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pricing.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pricing.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.RegularPricingTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.RegularPricingTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.movie.MovieTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.movie.MovieTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.service.RentMovieServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.service.RentMovieServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.service.ReturnMovieServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.service.ReturnMovieServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.RegularPricingTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.RegularPricingTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.movie.MovieTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.movie.MovieTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.service.RentMovieServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.service.RentMovieServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.service.ReturnMovieServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.service.ReturnMovieServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/joanadantas/service/ReturnMovieServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/joanadantas/service/ReturnMovieServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/SpringConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/dao/CustomersLoader$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/dao/CustomersLoader$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/dao/CustomersLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/dao/CustomersLoader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/dao/MoviesCatalogueLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/dao/MoviesCatalogueLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/resources/CustomerResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/resources/CustomerResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/resources/MovieResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/resources/MovieResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/SuccessfulRentMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/SuccessfulRentMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/SuccessfulReturnMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/SuccessfulReturnMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videorental.iml" beforeDir="false" afterPath="$PROJECT_DIR$/videorental.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/RentMovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/RentMovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/ReturnMovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/ReturnMovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/pricing.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/pricing.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,44 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RegularPricingTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/RegularPricingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pricing.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/pricing.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertyService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/util/PropertyService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pricing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/Pricing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+            <state relative-caret-position="135">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -144,16 +80,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoviesCatalogueLoader.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoviesCatalogueLoader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="420">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moviesCatalogue.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/moviesCatalogue.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="CustomersLoader.java" pinned="false" current-in-tab="false">
@@ -171,20 +112,38 @@
       <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="315">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/movie/MovieTest.java">
+      <file leaf-file-name="RentMovieServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="45">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReturnMovieServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/service/ReturnMovieServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="553" column="13" selection-start-line="553" selection-start-column="13" selection-end-line="553" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -200,6 +159,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>returnAMovie_WhenMovieIsNotRented_ShouldThrowException</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -209,7 +173,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/PricingTest.java" />
@@ -219,16 +182,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/NewReleasePricing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/OldMoviePricing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/RegularPricing.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/pricing.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movies.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/Pricing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/util/PropertyService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/joanadantas/RegularPricingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/joanadantas/movie/MovieTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/dao/CustomersLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/pricing.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/joanadantas/service/ReturnMovieServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java" />
       </list>
     </option>
   </component>
@@ -264,10 +230,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="23" />
-    <option name="width" value="1401" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="5" />
+    <option name="y" value="34" />
+    <option name="width" value="1275" />
     <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -395,11 +361,6 @@
               <item name="joanadantas" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="videorental" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videorental" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -410,15 +371,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -444,7 +405,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.VieoRental">
+  <component name="RunManager" selected="JUnit.RentMovieServiceTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -494,18 +455,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RegularPricingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RentMovieServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="videorental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.joanadantas.*" />
+          <option name="PATTERN" value="com.joanadantas.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.joanadantas" />
-      <option name="MAIN_CLASS_NAME" value="com.joanadantas.RegularPricingTest" />
+      <option name="PACKAGE_NAME" value="com.joanadantas.service" />
+      <option name="MAIN_CLASS_NAME" value="com.joanadantas.service.RentMovieServiceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -517,19 +478,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RegularPricingTest.calculateRentPrice_OverDayLimit_ShouldReturnFixedpriceTimesDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RentMovieServiceTest.rentAMovie_WhenMovieIsNotAvailable_ShouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="videorental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.joanadantas.*" />
+          <option name="PATTERN" value="com.joanadantas.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.joanadantas" />
-      <option name="MAIN_CLASS_NAME" value="com.joanadantas.RegularPricingTest" />
-      <option name="METHOD_NAME" value="calculateRentPrice_OverDayLimit_ShouldReturnFixedpriceTimesDays" />
+      <option name="PACKAGE_NAME" value="com.joanadantas.service" />
+      <option name="MAIN_CLASS_NAME" value="com.joanadantas.service.RentMovieServiceTest" />
+      <option name="METHOD_NAME" value="rentAMovie_WhenMovieIsNotAvailable_ShouldThrowException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -540,20 +501,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RegularPricingTest.calculateRentPrice_SameAsDayLimit_ShouldReturnFixedprice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReturnMovieServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="videorental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.joanadantas.*" />
+          <option name="PATTERN" value="com.joanadantas.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.joanadantas" />
-      <option name="MAIN_CLASS_NAME" value="com.joanadantas.RegularPricingTest" />
-      <option name="METHOD_NAME" value="calculateRentPrice_SameAsDayLimit_ShouldReturnFixedprice" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.joanadantas.service" />
+      <option name="MAIN_CLASS_NAME" value="com.joanadantas.service.ReturnMovieServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -601,7 +562,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="VieoRental" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.30" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="VideoRental" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.30" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="videorental:war exploded">
@@ -767,20 +728,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.VieoRental" />
-      <item itemvalue="JUnit.RegularPricingTest.calculateRentPrice_SameAsDayLimit_ShouldReturnFixedprice" />
-      <item itemvalue="JUnit.RegularPricingTest" />
-      <item itemvalue="JUnit.RegularPricingTest.calculateRentPrice_OverDayLimit_ShouldReturnFixedpriceTimesDays" />
+      <item itemvalue="Tomcat Server.VideoRental" />
       <item itemvalue="JUnit.MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" />
       <item itemvalue="JUnit.MovieTest" />
+      <item itemvalue="JUnit.RentMovieServiceTest" />
+      <item itemvalue="JUnit.RentMovieServiceTest.rentAMovie_WhenMovieIsNotAvailable_ShouldThrowException" />
+      <item itemvalue="JUnit.ReturnMovieServiceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RentMovieServiceTest" />
+        <item itemvalue="JUnit.ReturnMovieServiceTest" />
+        <item itemvalue="JUnit.RentMovieServiceTest.rentAMovie_WhenMovieIsNotAvailable_ShouldThrowException" />
         <item itemvalue="JUnit.MovieTest" />
         <item itemvalue="JUnit.MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" />
-        <item itemvalue="JUnit.RegularPricingTest" />
-        <item itemvalue="JUnit.RegularPricingTest.calculateRentPrice_OverDayLimit_ShouldReturnFixedpriceTimesDays" />
-        <item itemvalue="JUnit.RegularPricingTest.calculateRentPrice_SameAsDayLimit_ShouldReturnFixedprice" />
       </list>
     </recent_temporary>
   </component>
@@ -796,53 +757,53 @@
       <updated>1529848682412</updated>
       <workItem from="1529848683899" duration="8344000" />
       <workItem from="1529928586124" duration="26220000" />
-      <workItem from="1530653678395" duration="264000" />
+      <workItem from="1530653678395" duration="2676000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MovieTest - 2018.06.29 at 14h 47m 08s.xml">
-      <configuration name="MovieTest" configurationId="JUnit" />
+    <history-entry file="RentMovieServiceTest - 2018.07.04 at 19h 46m 31s.xml">
+      <configuration name="RentMovieServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie - 2018.06.29 at 14h 41m 39s.xml">
-      <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" configurationId="JUnit" />
+    <history-entry file="RentMovieServiceTest_rentAMovie_WhenMovieIsNotAvailable_ShouldThrowException - 2018.07.04 at 19h 47m 15s.xml">
+      <configuration name="RentMovieServiceTest.rentAMovie_WhenMovieIsNotAvailable_ShouldThrowException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie - 2018.06.29 at 14h 42m 38s.xml">
-      <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" configurationId="JUnit" />
+    <history-entry file="RentMovieServiceTest_rentAMovie_WhenMovieIsNotAvailable_ShouldThrowException - 2018.07.04 at 19h 48m 55s.xml">
+      <configuration name="RentMovieServiceTest.rentAMovie_WhenMovieIsNotAvailable_ShouldThrowException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie - 2018.06.29 at 14h 44m 06s.xml">
-      <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" configurationId="JUnit" />
+    <history-entry file="RentMovieServiceTest_rentAMovie_WhenMovieIsNotAvailable_ShouldThrowException - 2018.07.04 at 19h 50m 12s.xml">
+      <configuration name="RentMovieServiceTest.rentAMovie_WhenMovieIsNotAvailable_ShouldThrowException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie - 2018.06.29 at 14h 44m 10s.xml">
-      <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" configurationId="JUnit" />
+    <history-entry file="RentMovieServiceTest - 2018.07.04 at 19h 50m 34s.xml">
+      <configuration name="RentMovieServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie - 2018.06.29 at 14h 44m 17s.xml">
-      <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" configurationId="JUnit" />
+    <history-entry file="ReturnMovieServiceTest - 2018.07.04 at 19h 50m 51s.xml">
+      <configuration name="ReturnMovieServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie - 2018.06.29 at 14h 44m 20s.xml">
-      <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" configurationId="JUnit" />
+    <history-entry file="ReturnMovieServiceTest - 2018.07.04 at 19h 53m 12s.xml">
+      <configuration name="ReturnMovieServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie - 2018.06.29 at 14h 44m 23s.xml">
-      <configuration name="MovieTest.getPricingByMovieAge_UnderReleaseDate_ShouldReturnRegularPricingMovie" configurationId="JUnit" />
+    <history-entry file="ReturnMovieServiceTest - 2018.07.04 at 20h 01m 51s.xml">
+      <configuration name="ReturnMovieServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegularPricingTest - 2018.06.29 at 12h 17m 30s.xml">
-      <configuration name="RegularPricingTest" configurationId="JUnit" />
+    <history-entry file="ReturnMovieServiceTest - 2018.07.04 at 20h 04m 14s.xml">
+      <configuration name="ReturnMovieServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegularPricingTest - 2018.06.29 at 12h 23m 57s.xml">
-      <configuration name="RegularPricingTest" configurationId="JUnit" />
+    <history-entry file="ReturnMovieServiceTest - 2018.07.04 at 20h 08m 12s.xml">
+      <configuration name="ReturnMovieServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34828000" />
+    <option name="totallyTimeSpent" value="37240000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1401" height="773" extended-state="0" />
+    <frame x="5" y="23" width="1275" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="10" weight="0.32879046" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.16345468" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.17960784" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info id="Capture Tool" order="9" />
       <window_info id="Designer" order="3" />
@@ -850,29 +811,29 @@
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.3958042" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.39484978" />
       <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32867134" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.24615385" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.43490702" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Spring" order="17" />
       <window_info anchor="bottom" id="Terminal" order="15" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.8497854" visible="true" weight="0.18415418" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.81772155" visible="true" weight="0.22509804" />
       <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.31328672" />
       <window_info id="Learn" order="7" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="8" sideWeight="0.1502146" side_tool="true" visible="true" weight="0.18415418" />
+      <window_info id="Favorites" order="8" sideWeight="0.18227848" side_tool="true" visible="true" weight="0.22509804" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="JRebel Console" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="JRebel" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32867134" />
       <window_info anchor="bottom" id="SonarLint" order="2" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.31328672" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="JRebel Executor" order="1" />
@@ -889,32 +850,146 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java</url>
-          <line>38</line>
+          <line>33</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java</url>
-          <line>43</line>
+          <line>38</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java</url>
-          <line>47</line>
+          <line>42</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java</url>
+          <line>31</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java</url>
+          <line>21</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java</url>
-          <line>33</line>
-          <properties class="com.joanadantas.movie.Movie">
+          <line>29</line>
+          <properties class="com.joanadantas.movie.Movie" method="&lt;init&gt;">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java</url>
+          <line>26</line>
+          <properties class="com.joanadantas.movie.dao.MoviesCatalogueLoader" method="getAllMoviesMap">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="22" />
+      <option name="time" value="40" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1034,6 +1109,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,6 +1238,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,13 +1264,6 @@
             <element signature="e#179#180#0" expanded="true" />
             <element signature="e#248#249#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pricing.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1245,13 +1321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/customer/dao/CustomersLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1262,13 +1331,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/moviesCatalogue.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="553" column="13" selection-start-line="553" selection-start-column="13" selection-end-line="553" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pricing.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/service/ReturnMovieServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>

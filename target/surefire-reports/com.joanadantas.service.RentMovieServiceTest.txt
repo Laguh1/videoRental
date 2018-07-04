@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.joanadantas.service.RentMovieServiceTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! - in com.joanadantas.service.RentMovieServiceTest
-rentAMovie_WhenRentMovieIsSuccesfull_ShouldSetValuesCorrectly(com.joanadantas.service.RentMovieServiceTest)  Time elapsed: 0.012 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<2018-07-0[3]> but was:<2018-07-0[1]>
-	at com.joanadantas.service.RentMovieServiceTest.rentAMovie_WhenRentMovieIsSuccesfull_ShouldSetValuesCorrectly(RentMovieServiceTest.java:71)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.475 s - in com.joanadantas.service.RentMovieServiceTest

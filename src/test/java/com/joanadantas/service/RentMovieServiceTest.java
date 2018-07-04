@@ -21,10 +21,34 @@ public class RentMovieServiceTest {
     private static final int REGULAR_BONUS_POINT = 1;
     private static final int NUMBER_OF_DAYS_TO_RENT = 2;
 
-    private RentMovieService objectUnderTest = new RentMovieService();
+    private Movie unavailableMovie;
+    private Movie notRentedMovie;
+    private ReturnMovieService returnMovieService;
+    private RentMovieService objectUnderTest;
 
     @Rule
     public ExpectedException thrown = ExpectedException.none();
+
+    @Before
+    public void setUp() throws CustomException{
+        objectUnderTest = new RentMovieService();
+        returnMovieService = new ReturnMovieService();
+        unavailableMovie = MoviesCatalogueLoader.getAllMoviesMap().get(UNAVAILABLE_MOVIE_ID);
+        if(unavailableMovie.getIsAvailable()){
+            objectUnderTest.rentAMovie(CUSTOMER_ID, UNAVAILABLE_MOVIE_ID, NUMBER_OF_DAYS_TO_RENT);
+        }
+        notRentedMovie = MoviesCatalogueLoader.getAllMoviesMap().get(MOVIE_ID);
+        if(!notRentedMovie.getIsAvailable()){
+            returnMovieService.returnAMovie(CUSTOMER_ID, MOVIE_ID);
+        }
+    }
+
+    @After
+    public void clear() throws CustomException{
+        if(!unavailableMovie.getIsAvailable()){
+            returnMovieService.returnAMovie(CUSTOMER_ID, UNAVAILABLE_MOVIE_ID);
+        }
+    }
 
     @Test
     public void rentAMovie_WhenCustomerDoesNotExist_ShouldThrowException() throws CustomException{
@@ -47,7 +71,7 @@ public class RentMovieServiceTest {
     @Test
     public void rentAMovie_WhenMovieIsNotAvailable_ShouldThrowException() throws CustomException{
         Movie movie = MoviesCatalogueLoader.getAllMoviesMap().get(UNAVAILABLE_MOVIE_ID);
-        objectUnderTest.rentAMovie(CUSTOMER_ID, UNAVAILABLE_MOVIE_ID, NUMBER_OF_DAYS_TO_RENT);
+      //  objectUnderTest.rentAMovie(CUSTOMER_ID, UNAVAILABLE_MOVIE_ID, NUMBER_OF_DAYS_TO_RENT);
 
         thrown.expect(CustomException.class);
         thrown.expectMessage("Movie "+ movie.getTitle()+" is not Available. It will be returned on: "+movie.getReturnDate());
