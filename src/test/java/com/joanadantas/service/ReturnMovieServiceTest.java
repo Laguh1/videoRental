@@ -23,13 +23,13 @@ public class ReturnMovieServiceTest {
     static class ContextConfiguration {
 
         @Bean
-        public RentService returnService() {
+        public RentService rentService() {
             RentService rentMovieService = new RentMovieService();
             return rentMovieService;
         }
     }
 
-    private static final String CUSTOMER_ID = "001";
+    private static final String CUSTOMER_ID = "MYS";
     private static final String NON_EXISTANT_CUSTOMER_ID = "999";
     private static final String NOT_RENTED_MOVIE_ID = "001";
     private static final String MOVIE_ID = "002";

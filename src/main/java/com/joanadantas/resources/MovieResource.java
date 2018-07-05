@@ -1,6 +1,5 @@
 package com.joanadantas.resources;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.joanadantas.movie.Movie;
 import com.joanadantas.movie.Movies;
 import com.joanadantas.movie.dao.MoviesCatalogueLoader;
@@ -11,7 +10,6 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.io.File;
 
 @Path("/movies")
 public class MovieResource {

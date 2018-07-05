@@ -1,7 +1,6 @@
 package com.joanadantas.resources;
 
 import com.joanadantas.service.*;
-import com.joanadantas.service.messages.CustomErrorMessage;
 import com.joanadantas.service.messages.CustomExceptionMessage;
 import com.joanadantas.service.messages.SuccessfulRentMessage;
 import com.joanadantas.service.messages.SuccessfulReturnMessage;
@@ -13,7 +12,6 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 @Component
-
 @Path("/rental")
 public class RentResource {
 

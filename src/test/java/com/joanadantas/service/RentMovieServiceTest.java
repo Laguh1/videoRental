@@ -31,7 +31,7 @@ public class RentMovieServiceTest {
         }
     }
 
-    private static final String CUSTOMER_ID = "001";
+    private static final String CUSTOMER_ID = "MYS";
     private static final String NON_EXISTANT_CUSTOMER_ID = "999";
     private static final String UNAVAILABLE_MOVIE_ID = "001";
     private static final String MOVIE_ID = "002";

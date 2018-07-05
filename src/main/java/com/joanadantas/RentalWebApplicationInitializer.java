@@ -1,5 +1,6 @@
 package com.joanadantas;
 
+import com.sun.jersey.spi.container.servlet.WebConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class RentalWebApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
@@ -17,5 +18,4 @@ public class RentalWebApplicationInitializer extends AbstractAnnotationConfigDis
     protected String[] getServletMappings() {
         return new String[] { "/" };
     }
-
 }
