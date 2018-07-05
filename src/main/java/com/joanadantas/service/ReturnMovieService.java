@@ -5,11 +5,14 @@ import com.joanadantas.customer.dao.CustomersLoader;
 import com.joanadantas.movie.Movie;
 import com.joanadantas.movie.dao.MoviesCatalogueLoader;
 import com.joanadantas.service.messages.SuccessfulReturnMessage;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 
-@Service
+@Component
 public class ReturnMovieService implements ReturnService{
 
     private static final String CUSTOMER_NOT_FOUND = "Customer with id: %s not found.";

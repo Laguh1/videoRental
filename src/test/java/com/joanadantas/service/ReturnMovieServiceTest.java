@@ -23,7 +23,7 @@ public class ReturnMovieServiceTest {
     static class ContextConfiguration {
 
         @Bean
-        public RentService returnService() {
+        public RentService rentService() {
             RentService rentMovieService = new RentMovieService();
             return rentMovieService;
         }

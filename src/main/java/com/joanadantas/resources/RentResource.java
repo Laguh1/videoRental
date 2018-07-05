@@ -1,29 +1,22 @@
 package com.joanadantas.resources;
 
 import com.joanadantas.service.*;
-import com.joanadantas.service.messages.CustomErrorMessage;
 import com.joanadantas.service.messages.CustomExceptionMessage;
 import com.joanadantas.service.messages.SuccessfulRentMessage;
 import com.joanadantas.service.messages.SuccessfulReturnMessage;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-@Component
 @Path("/rental")
 public class RentResource {
 
-    private RentService rentMovieService;
-    private ReturnService returnMovieService;
-
     @Autowired
-    public RentResource(RentService rentMovieService, ReturnService returnMovieService){
-        this.rentMovieService = rentMovieService;
-        this.returnMovieService = returnMovieService;
-    }
+    private RentService rentMovieService;
+    @Autowired
+    private ReturnService returnMovieService;
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
