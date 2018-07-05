@@ -18,7 +18,8 @@ public class CustomersLoader {
         if (allCustomersList != null){
             return allCustomersList;
         }else{
-            return new CustomersLoader().getCustomersFromJson();
+            allCustomersList = new CustomersLoader().getCustomersFromJson();
+            return allCustomersList;
         }
     }
 
