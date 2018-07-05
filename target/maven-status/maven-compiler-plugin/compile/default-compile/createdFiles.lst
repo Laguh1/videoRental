@@ -13,8 +13,6 @@ com/joanadantas/movie/dao/MoviesCatalogueLoader$1.class
 com/joanadantas/resources/RentResource.class
 com/joanadantas/Pricing.class
 com/joanadantas/service/CustomException.class
-com/joanadantas/WebConfig.class
-com/joanadantas/RentalWebApplicationInitializer.class
 com/joanadantas/customer/Customer.class
 com/joanadantas/service/messages/CustomExceptionMessage.class
 com/joanadantas/OldMoviePricing.class
@@ -25,5 +23,6 @@ com/joanadantas/service/messages/SuccessfulRentMessage.class
 com/joanadantas/util/PropertyService.class
 com/joanadantas/SpringConfig.class
 com/joanadantas/customer/Customers.class
+com/joanadantas/SpringContext.class
 com/joanadantas/service/ReturnMovieService.class
 com/joanadantas/service/RentService.class
