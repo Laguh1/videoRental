@@ -12,12 +12,12 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 @Path("/movies")
-public class MovieResource {
+public final class MovieResource {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response getAllMovies() {
-        Movies movies = new Movies();
+        Movies movies = Movies.getInstance();
         return Response.status(200).entity(movies).build();
     }
 

@@ -12,12 +12,12 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 @Path("customers")
-public class CustomerResource {
+public final class CustomerResource {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response getAllCustomers() {
-        Customers customers = new Customers();
+        Customers customers = Customers.getInstance();
         return Response.status(200).entity(customers).build();
     }
 
@@ -25,7 +25,6 @@ public class CustomerResource {
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/customer/{customerId}")
     public Response getCustomer(@PathParam("customerId") String customerId) {
-
         Customer customerResult = CustomersLoader.getAllCustomersMap().get(customerId);
         if (customerResult!=null){
             return Response.status(200).entity(customerResult).build();

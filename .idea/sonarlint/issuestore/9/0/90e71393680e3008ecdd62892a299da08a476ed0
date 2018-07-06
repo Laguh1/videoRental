@@ -1,4 +1,3 @@
 
-Dsquid:S1148"#Use a logger to log this exception.(ÙïþÀûÿÿÿÿ8Æ‰°ÛÄ,
-Psquid:EmptyStatementUsageCheck"Remove this empty statement.(Ý´¹ñþÿÿÿÿ8°¦ßØÄ,
-?squid:S1148"#Use a logger to log this exception.(Ç’Çê8°¦ßØÄ,
+?squid:S1148"#Use a logger to log this exception.(Ç’Çê8Ò§ºÈÆ,
+Dsquid:S1148"#Use a logger to log this exception.(ÙïþÀûÿÿÿÿ8Ò§ºÈÆ,

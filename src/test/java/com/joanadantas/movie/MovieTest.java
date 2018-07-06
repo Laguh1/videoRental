@@ -1,8 +1,8 @@
 package com.joanadantas.movie;
 
-import com.joanadantas.NewReleasePricing;
-import com.joanadantas.OldMoviePricing;
-import com.joanadantas.RegularPricing;
+import com.joanadantas.service.pricing.NewReleasePricing;
+import com.joanadantas.service.pricing.OldMoviePricing;
+import com.joanadantas.service.pricing.RegularPricing;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

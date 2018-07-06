@@ -1,5 +1,7 @@
 package com.joanadantas;
 
+import com.joanadantas.service.pricing.Pricing;
+import com.joanadantas.service.pricing.RegularPricing;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

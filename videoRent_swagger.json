@@ -1,0 +1,317 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is Casumo's selection process test. Video rental. By applicant Joana Socrates Dantas.",
+    "version": "1.0.0",
+    "title": "Joana Dantas video rental test",
+    "contact": {
+      "email": "jodantas@hotmail.com"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "localhost:8080",
+  "basePath": "/videorental",
+  "tags": [
+    {
+      "name": "movieRental",
+      "description": "Casumo test by Joana Dantas"
+    },
+    {
+      "name": "movies",
+      "description": "Retrieve movies in catalogue"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/movies": {
+      "get": {
+        "tags": [
+          "movies"
+        ],
+        "summary": "get all movies from the catalogue",
+        "description": "",
+        "operationId": "getMovies",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not found"
+          }
+        }
+      }
+    },
+    "/movies/movie/{movieId}": {
+      "get": {
+        "tags": [
+          "movies"
+        ],
+        "summary": "get all movies from the catalogue",
+        "description": "",
+        "operationId": "getMovie",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "movieId",
+            "in": "path",
+            "description": "ID of movie to return",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Movie not Found"
+          }
+        }
+      }
+    },
+    "/customers": {
+      "get": {
+        "tags": [
+          "customers"
+        ],
+        "summary": "Returns list of customers",
+        "description": "Returns a list of all registered customers",
+        "operationId": "getCustomers",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          }
+        }
+      }
+    },
+    "/customers/customer/{customerId}": {
+      "get": {
+        "tags": [
+          "customers"
+        ],
+        "summary": "Returns desired customer",
+        "description": "return one costumer with specified customerId",
+        "operationId": "getCustomer",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "path",
+            "description": "ID of customer to return",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          },
+          "404": {
+            "description": "Customer not found"
+          }
+        }
+      }
+    },
+    "/rental/rent/{customerId}/": {
+      "post": {
+        "tags": [
+          "rental"
+        ],
+        "summary": "Rent movie",
+        "description": "Customer with {customerId} rent movie with id {movieId} for {daysRent} number of days to rent. Eg. /videorental/rental/rent/MYS?movieId=004&daysRent=6",
+        "operationId": "rentMovie",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "path",
+            "description": "ID of customer renting a movie",
+            "required": true,
+            "type": "string",
+            "minimum": 1
+          },
+          {
+            "name": "movieId",
+            "in": "query",
+            "description": "ID of movie being rent",
+            "required": true,
+            "type": "string",
+            "minimum": 1
+          },
+          {
+            "name": "daysRent",
+            "in": "query",
+            "description": "Number of days to rent movie",
+            "required": true,
+            "type": "integer",
+            "minimum": 1
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Rent successful operation"
+          },
+          "404": {
+            "description": "Customer or movie not found or movie not available"
+          }
+        }
+      }
+    },
+    "/rental/rent/{customerId}": {
+      "post": {
+        "tags": [
+          "rental"
+        ],
+        "summary": "Rent movies",
+        "description": "Customer with {customerId} rent list of movies for number of days both specified in calls body. ",
+        "operationId": "rentMovies",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "path",
+            "description": "ID of customer renting a movie",
+            "required": true,
+            "type": "string",
+            "minimum": 1
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "description": "order placed for purchasing the pet",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/rent"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response with succesfull or not movies"
+          }
+        }
+      }
+    },
+    "/rental/return/{customerId}/": {
+      "post": {
+        "tags": [
+          "rental"
+        ],
+        "summary": "Return movie",
+        "description": "Customer with {customerId} return movie with id {movieId}. Eg. /videorental/rental/return/MYS?movieId=001",
+        "operationId": "returnMovie",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "path",
+            "description": "ID of the customer renting the movie",
+            "required": true,
+            "type": "string",
+            "minimum": 1
+          },
+          {
+            "name": "movieId",
+            "in": "query",
+            "description": "ID of the movie being rent",
+            "required": true,
+            "type": "string",
+            "minimum": 1
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Return operation succesful"
+          },
+          "404": {
+            "description": "Customer or movie not found, or movie not rented by customer."
+          }
+        }
+      }
+    },
+    "/rental/return/{customerId}": {
+      "post": {
+        "tags": [
+          "rental"
+        ],
+        "summary": "Return movie",
+        "description": "Customer with {customerId} return list of movies with id specified in calls body.",
+        "operationId": "returnMovies",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "path",
+            "description": "ID of the customer renting the movie",
+            "required": true,
+            "type": "string",
+            "minimum": 1
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "description": "order placed for purchasing the pet",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/return"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response with succesfull or not movies"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "rent": {
+      "type": "object",
+      "properties": {
+        "movieId": {
+          "type": "string"
+        },
+        "numberOfDays": {
+          "type": "string"
+        }
+      }
+    },
+    "return": {
+      "type": "object",
+      "properties": {
+        "movieId": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "Open file in Swagger editor to visualize in UI mode",
+    "url": "https://editor.swagger.io/"
+  }
+}

@@ -2,16 +2,16 @@ package com.joanadantas.movie;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import com.joanadantas.NewReleasePricing;
-import com.joanadantas.OldMoviePricing;
-import com.joanadantas.Pricing;
-import com.joanadantas.RegularPricing;
+import com.joanadantas.service.pricing.NewReleasePricing;
+import com.joanadantas.service.pricing.OldMoviePricing;
+import com.joanadantas.service.pricing.Pricing;
+import com.joanadantas.service.pricing.RegularPricing;
 import com.joanadantas.util.PropertyService;
 
 import java.time.LocalDate;
 
 @JsonPropertyOrder({"id","title","publishDate","isAvailable","returnDate", "rentDate","pricing"})
-public class Movie {
+public final class Movie {
 
     private static final String DEFAULT_NUMBER_OF_DAYS_FOR_NEW_RELEASE = "90";
     private static final String DEFAULT_NUMBER_OF_DAYS_FOR_OLD_MOVIE = "1825";
@@ -27,7 +27,7 @@ public class Movie {
     @JsonIgnore
     private Pricing pricing;
 
-    public Movie(){}
+    private Movie(){}
 
     public String getId() {
         return id;

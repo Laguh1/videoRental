@@ -2,12 +2,10 @@ package com.joanadantas.customer;
 
 import com.joanadantas.movie.Movie;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Customer {
+public final class Customer {
 
     private String id;
     private String name;
@@ -15,7 +13,7 @@ public class Customer {
     private Map<String, Integer> amountPaidPerMovie;
     private List<Movie> moviesRented;
 
-    public Customer(){}
+    private Customer(){}
 
     public String getId() {
         return id;

@@ -2,16 +2,12 @@ package com.joanadantas.customer.dao;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.joanadantas.SpringConfig;
 import com.joanadantas.customer.Customer;
-import com.joanadantas.resources.RentResource;
-import org.springframework.beans.factory.xml.ResourceEntityResolver;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.io.File;
 import java.util.*;
 
-public class CustomersLoader {
+public final class CustomersLoader {
 
     //Creates a cached list of films for using the app simulates database as json file
     private static List<Customer> allCustomersList;

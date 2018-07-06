@@ -2,13 +2,13 @@ package com.joanadantas.service.messages;
 
 import com.joanadantas.movie.Movie;
 
-public class SuccessfulReturnMessage {
+public class SuccessfulReturnMessage implements Messaging{
 
-    private String customerId;
-    private String customerName;
-    private Movie returnedMovie;
-    private boolean isReturnSuccessful;
-    private int amountToPay;
+    private final String customerId;
+    private final String customerName;
+    private final Movie returnedMovie;
+    private final boolean isReturnSuccessful;
+    private final int amountToPay;
 
     public SuccessfulReturnMessage(String customerId, String customerName, Movie returnedMovie, int amountToPay) {
         this.customerId = customerId;

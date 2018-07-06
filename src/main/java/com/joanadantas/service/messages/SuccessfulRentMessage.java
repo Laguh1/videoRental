@@ -2,13 +2,13 @@ package com.joanadantas.service.messages;
 
 import com.joanadantas.movie.Movie;
 
-public class SuccessfulRentMessage {
+public class SuccessfulRentMessage implements Messaging{
 
-    private String customerId;
-    private String customerName;
-    private Movie rentedMovie;
-    private boolean isRentSuccessful;
-    private int amountToPay;
+    private final String customerId;
+    private final String customerName;
+    private final Movie rentedMovie;
+    private final boolean isRentSuccessful;
+    private final int amountToPay;
 
     public SuccessfulRentMessage(String customerId, String customerName, Movie rentedMovie, int amountToPay) {
         this.customerId = customerId;
@@ -30,7 +30,7 @@ public class SuccessfulRentMessage {
         return rentedMovie;
     }
 
-    public boolean getOperationStatus() {
+    public boolean getIsRentSuccessful() {
         return isRentSuccessful;
     }
 

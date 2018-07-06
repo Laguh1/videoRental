@@ -8,7 +8,7 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.List;
 
-public class MoviesCatalogueLoader {
+public final class MoviesCatalogueLoader {
 
     //Creates a cached list of films for using the app simulates database as json file
     private static List<Movie> allMovies;

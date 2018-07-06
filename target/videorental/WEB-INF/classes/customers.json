@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Mary Smith",
+    "id": "MYS",
+    "amountPaidPerMovie": {},
+    "bonusPoint": 0,
+    "moviesRented": []
+  },
+  {
+    "name": "Joe Lavender",
+    "id": "JEL",
+    "amountPaidPerMovie": {},
+    "bonusPoint": 0,
+    "moviesRented": []
+  },
+  {
+    "name": "Candice Rose",
+    "id": "CAR",
+    "amountPaidPerMovie": {},
+    "bonusPoint": 0,
+    "moviesRented": []
+  }
+]
