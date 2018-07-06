@@ -13,7 +13,7 @@ public class Customer {
     private Map<String, Integer> amountPaidPerMovie;
     private List<Movie> moviesRented;
 
-    public Customer(){}
+    private Customer(){}
 
     public String getId() {
         return id;

@@ -27,7 +27,7 @@ public class Movie {
     @JsonIgnore
     private Pricing pricing;
 
-    public Movie(){}
+    private Movie(){}
 
     public String getId() {
         return id;

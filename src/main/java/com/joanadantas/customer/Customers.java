@@ -5,13 +5,22 @@ import java.util.List;
 
 public class Customers {
 
-    private List<Customer> customers;
+    private static Customers customers = null;
+    private final List<Customer> customersList;
 
-    public Customers(){
-        this.customers = CustomersLoader.getAllCustomersList();
+    private Customers(){
+        this.customersList = CustomersLoader.getAllCustomersList();
+    }
+
+    public static Customers getInstance(){
+        if(customers!=null){
+            return customers;
+        }else{
+            return new Customers();
+        }
     }
 
     public List<Customer> getCustomers() {
-        return customers;
+        return customersList;
     }
 }
