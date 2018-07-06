@@ -6,7 +6,6 @@ import com.joanadantas.movie.Movie;
 import com.joanadantas.movie.dao.MoviesCatalogueLoader;
 import com.joanadantas.service.messages.SuccessfulRentMessage;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 
@@ -16,6 +15,17 @@ public class RentMovieService implements RentService{
     private static final String CUSTOMER_NOT_FOUND = "Customer with id: %s not found.";
     private static final String MOVIE_NOT_FOUND = "Movie with id: %s not found.";
     private static final String MOVIE_NOT_AVAILABLE = "Movie %s is not Available. It will be returned on: %s";
+
+    private static RentMovieService instance = null;
+    private RentMovieService() {
+    }
+
+    public static RentMovieService getInstance() {
+        if(instance == null) {
+            instance = new RentMovieService();
+        }
+        return instance;
+    }
 
     public SuccessfulRentMessage rentAMovie(String customerId, String movieId, int numberOfDaysToRent) throws CustomException{
 

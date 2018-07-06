@@ -2,11 +2,7 @@ package com.joanadantas.customer.dao;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.joanadantas.SpringConfig;
 import com.joanadantas.customer.Customer;
-import com.joanadantas.resources.RentResource;
-import org.springframework.beans.factory.xml.ResourceEntityResolver;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.io.File;
 import java.util.*;

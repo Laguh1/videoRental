@@ -20,12 +20,12 @@ public class SpringConfig extends WebMvcConfigurerAdapter {
 
     @Bean
     public RentService getRentMovieService() {
-        return new RentMovieService();
+        return RentMovieService.getInstance();
     }
 
     @Bean
     public ReturnService getReturnMovieService() {
-        return new ReturnMovieService();
+        return ReturnMovieService.getInstance();
     }
 }
 

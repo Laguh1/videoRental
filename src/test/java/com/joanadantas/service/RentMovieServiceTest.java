@@ -26,7 +26,7 @@ public class RentMovieServiceTest {
 
         @Bean
         public ReturnService returnService() {
-            ReturnService returnMovieService = new ReturnMovieService();
+            ReturnService returnMovieService = ReturnMovieService.getInstance();
             return returnMovieService;
         }
     }
@@ -50,7 +50,7 @@ public class RentMovieServiceTest {
 
     @Before
     public void setUp() throws CustomException{
-        objectUnderTest = new RentMovieService();
+        objectUnderTest = RentMovieService.getInstance();
         unavailableMovie = MoviesCatalogueLoader.getAllMoviesMap().get(UNAVAILABLE_MOVIE_ID);
         if(unavailableMovie.getIsAvailable()){
             objectUnderTest.rentAMovie(CUSTOMER_ID, UNAVAILABLE_MOVIE_ID, NUMBER_OF_DAYS_TO_RENT);
@@ -65,6 +65,9 @@ public class RentMovieServiceTest {
     public void clear() throws CustomException{
         if(!unavailableMovie.getIsAvailable()){
             returnMovieService.returnAMovie(CUSTOMER_ID, UNAVAILABLE_MOVIE_ID);
+        }
+        if(!notRentedMovie.getIsAvailable()){
+            returnMovieService.returnAMovie(CUSTOMER_ID, MOVIE_ID);
         }
     }
 
@@ -95,8 +98,8 @@ public class RentMovieServiceTest {
 
         objectUnderTest.rentAMovie(CUSTOMER_ID, UNAVAILABLE_MOVIE_ID, NUMBER_OF_DAYS_TO_RENT);
 
-        ReturnMovieService returnMovieService = new ReturnMovieService();
-        returnMovieService.returnAMovie(CUSTOMER_ID,UNAVAILABLE_MOVIE_ID);
+       // ReturnMovieService returnMovieService = new ReturnMovieService();
+       // returnMovieService.returnAMovie(CUSTOMER_ID,UNAVAILABLE_MOVIE_ID);
     }
 
     @Test
@@ -114,7 +117,7 @@ public class RentMovieServiceTest {
         assertTrue(customer.getMoviesRented().contains(movie));
         assertEquals((Integer)movie.getPricing().calculateRentPrice(NUMBER_OF_DAYS_TO_RENT), customer.getAmountPaidPerMovie().get(MOVIE_ID));
 
-        ReturnMovieService returnMovieService = new ReturnMovieService();
-        returnMovieService.returnAMovie(CUSTOMER_ID, MOVIE_ID);
+      //  ReturnMovieService returnMovieService = new ReturnMovieService();
+      //  returnMovieService.returnAMovie(CUSTOMER_ID, MOVIE_ID);
     }
 }
