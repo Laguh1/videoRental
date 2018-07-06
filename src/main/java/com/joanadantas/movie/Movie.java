@@ -2,10 +2,10 @@ package com.joanadantas.movie;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import com.joanadantas.NewReleasePricing;
-import com.joanadantas.OldMoviePricing;
-import com.joanadantas.Pricing;
-import com.joanadantas.RegularPricing;
+import com.joanadantas.service.pricing.NewReleasePricing;
+import com.joanadantas.service.pricing.OldMoviePricing;
+import com.joanadantas.service.pricing.Pricing;
+import com.joanadantas.service.pricing.RegularPricing;
 import com.joanadantas.util.PropertyService;
 
 import java.time.LocalDate;

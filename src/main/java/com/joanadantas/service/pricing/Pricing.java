@@ -1,8 +1,8 @@
-package com.joanadantas;
+package com.joanadantas.service.pricing;
 
 import com.joanadantas.util.PropertyService;
 
-public abstract class Pricing implements CalculatePrice{
+public abstract class Pricing implements CalculatePrice {
 
     private static final String DEFAULT_PRICE_VALUE = "30";
     private static final String DEFAULT_FIXED_DAYS = "3";

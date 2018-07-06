@@ -1,4 +1,4 @@
-package com.joanadantas;
+package com.joanadantas.service.pricing;
 
 public interface CalculatePrice {
 

@@ -1,5 +1,6 @@
-package com.joanadantas.service;
+package com.joanadantas.service.rental;
 
+import com.joanadantas.service.CustomException;
 import com.joanadantas.service.messages.SuccessfulReturnMessage;
 
 public interface ReturnService {

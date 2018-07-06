@@ -4,6 +4,9 @@ import com.joanadantas.customer.Customer;
 import com.joanadantas.customer.dao.CustomersLoader;
 import com.joanadantas.movie.Movie;
 import com.joanadantas.movie.dao.MoviesCatalogueLoader;
+import com.joanadantas.service.rental.RentMovieService;
+import com.joanadantas.service.rental.RentService;
+import com.joanadantas.service.rental.ReturnMovieService;
 import org.junit.*;
 import org.junit.rules.ExpectedException;
 import org.junit.runner.RunWith;
@@ -24,7 +27,7 @@ public class ReturnMovieServiceTest {
 
         @Bean
         public RentService rentService() {
-            RentService rentMovieService = new RentMovieService();
+            RentService rentMovieService = RentMovieService.getInstance();
             return rentMovieService;
         }
     }
@@ -37,7 +40,7 @@ public class ReturnMovieServiceTest {
     private static final int NUMBER_OF_DAYS_TO_RENT = 1;
 
     private Movie notRentedMovie;
-    private  Movie rentedMovie;
+    private Movie rentedMovie;
     @Autowired
     private RentService rentMovieService;
     private ReturnMovieService objectUnderTest;
@@ -47,7 +50,7 @@ public class ReturnMovieServiceTest {
 
     @Before
     public void setUp() throws CustomException{
-        objectUnderTest = new ReturnMovieService();
+        objectUnderTest = ReturnMovieService.getInstance();
         notRentedMovie = MoviesCatalogueLoader.getAllMoviesMap().get(NOT_RENTED_MOVIE_ID);
         if(!notRentedMovie.getIsAvailable()){
             objectUnderTest.returnAMovie(CUSTOMER_ID, NOT_RENTED_MOVIE_ID);

@@ -1,4 +1,4 @@
-package com.joanadantas;
+package com.joanadantas.service.pricing;
 
 public class NewReleasePricing extends Pricing {
     public NewReleasePricing(){

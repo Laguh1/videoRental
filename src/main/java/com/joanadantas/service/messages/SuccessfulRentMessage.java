@@ -30,7 +30,7 @@ public class SuccessfulRentMessage {
         return rentedMovie;
     }
 
-    public boolean getOperationStatus() {
+    public boolean getRentSuccesful() {
         return isRentSuccessful;
     }
 

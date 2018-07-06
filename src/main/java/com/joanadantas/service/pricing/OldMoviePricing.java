@@ -1,4 +1,4 @@
-package com.joanadantas;
+package com.joanadantas.service.pricing;
 
 public class OldMoviePricing extends Pricing {
 
