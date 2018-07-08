@@ -6,89 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a8eb766-d9f2-495f-b004-1ec870f7f0d8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/Messaging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/MultipleOperationMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/RentMoviesRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/CalculatePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/pricing/CalculatePrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/NewReleasePricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/pricing/NewReleasePricing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/OldMoviePricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/pricing/OldMoviePricing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/Pricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/pricing/Pricing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/RegularPricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/pricing/RegularPricing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/Customers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/dao/CustomersLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/customer/dao/CustomersLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/Movies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/movie/dao/MoviesCatalogueLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/CustomerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/CustomerResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/MovieResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/RentResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/resources/RentResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/rental/RentMovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/RentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/rental/RentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/ReturnMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/rental/ReturnMovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/ReturnService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/rental/ReturnService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/CustomErrorMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/CustomExceptionMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/CustomExceptionMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulRentMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulRentMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulReturnMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/SuccessfulReturnMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/joanadantas/RegularPricingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/joanadantas/RegularPricingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/joanadantas/movie/MovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/joanadantas/movie/MovieTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/joanadantas/service/RentMovieServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/joanadantas/service/ReturnMovieServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/joanadantas/service/ReturnMovieServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/CalculatePrice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/NewReleasePricing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/OldMoviePricing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/Pricing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/RegularPricing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/movie/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/movie/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/resources/RentResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/resources/RentResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/service/RentMovieService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/service/RentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/service/ReturnMovieService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/service/ReturnService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joanadantas/service/messages/SuccessfulRentMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joanadantas/service/messages/SuccessfulRentMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.RegularPricingTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.RegularPricingTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.movie.MovieTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.movie.MovieTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.service.RentMovieServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.service.RentMovieServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.service.ReturnMovieServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.joanadantas.service.ReturnMovieServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.RegularPricingTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.RegularPricingTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.movie.MovieTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.movie.MovieTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.service.RentMovieServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.service.RentMovieServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.service.ReturnMovieServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.joanadantas.service.ReturnMovieServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/joanadantas/RegularPricingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/joanadantas/RegularPricingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/joanadantas/movie/MovieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/joanadantas/movie/MovieTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/joanadantas/service/RentMovieServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/joanadantas/service/RentMovieServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/joanadantas/service/ReturnMovieServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/joanadantas/service/ReturnMovieServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/CalculatePrice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/NewReleasePricing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/OldMoviePricing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/Pricing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/RegularPricing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/Customers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/Customers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/dao/CustomersLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/customer/dao/CustomersLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/Movies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/Movies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/dao/MoviesCatalogueLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/movie/dao/MoviesCatalogueLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/resources/CustomerResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/resources/CustomerResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/resources/MovieResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/resources/MovieResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/resources/RentResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/resources/RentResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/RentMovieService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/RentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/ReturnMovieService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/ReturnService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/CustomErrorMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/CustomExceptionMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/CustomExceptionMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/SuccessfulRentMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/SuccessfulRentMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/SuccessfulReturnMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/WEB-INF/classes/com/joanadantas/service/messages/SuccessfulReturnMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videorental/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/videorental/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="5a8eb766-d9f2-495f-b004-1ec870f7f0d8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -102,18 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MultipleOperationMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/MultipleOperationMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RentMoviesRequest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/joanadantas/service/messages/RentMoviesRequest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -194,11 +100,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="48" />
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -929,7 +845,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69340000" />
+    <option name="totallyTimeSpent" value="69735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1274" height="773" extended-state="6" />
@@ -946,7 +862,7 @@
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.44062948" />
+      <window_info anchor="bottom" id="Debug" order="6" visible="true" weight="0.44062948" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32618025" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
@@ -954,7 +870,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.43633762" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.43490702" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.43490702" />
       <window_info anchor="bottom" id="Terminal" order="15" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.8151899" visible="true" weight="0.24646781" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -1202,7 +1118,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/RentalWebApplicationInitializer.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/joanadantas/ContextConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/pricing.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -1558,7 +1473,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="48" />
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
