@@ -1,6 +1,5 @@
-# Casumo programming test 
 # videoRental project
-# applicant: Joana Socrates
+# Joana Socrates
 
 Instructions: project was developed in IntelliJ IDEA. It was set as a Maven project configured to run in Tomcat 8.0.30 localhost port 8080. 
 The Api's Endpoints are:
